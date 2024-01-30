@@ -3,8 +3,8 @@ To submit logs for protocol compliance verification, following steps need to be 
 
 >1. Create a fork of the "verification-logs" repository
 
->2. Create a branch with the name of your entity under "logs"
+>2. Create a folder with the name of your entity under "logs"
 
->3. Merge your logs into this branch (logs should include request & response payloads for all enabled APIs)
+>3. Place your logs into this folder (logs should include request & response payloads for all enabled APIs)
 
->4. Create PR for your branch
+>4. Create a PR
