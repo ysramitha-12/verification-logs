@@ -1,0 +1,1930 @@
+{
+  "context": {
+    "ttl": "PT10M",
+    "action": "search",
+    "timestamp": "2024-02-07T03:54:09.151Z",
+    "message_id": "cf080eae-6681-4128-b5a4-eb27cdfb72e9",
+    "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+    "domain": "onest:work-opportunities",
+    "version": "1.1.0",
+    "bap_id": "wo-network.samhita.org",
+    "bap_uri": "https://wo-network.samhita.org/",
+    "location": {
+      "country": {
+        "name": "India",
+        "code": "IND"
+      },
+      "city": {
+        "name": "Bangalore",
+        "code": "std:080"
+      }
+    }
+  },
+  "responses": [
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_search",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "location": {
+          "country": {
+            "name": "India",
+            "code": "IND"
+          },
+          "city": {
+            "name": "Bangalore",
+            "code": "std:080"
+          }
+        },
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "cf080eae-6681-4128-b5a4-eb27cdfb72e9",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:54:16.357Z"
+      },
+      "message": {
+        "catalog": {
+          "providers": [
+            {
+              "id": "1",
+              "descriptor": {
+                "name": "Jeevitam"
+              },
+              "locations": [
+                {
+                  "id": "14",
+                  "city": {
+                    "code": "std:08152",
+                    "name": "Kolar"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "15",
+                  "city": {
+                    "name": "Karnataka",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "3",
+                  "city": {
+                    "code": "std:011",
+                    "name": "Delhi"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "4",
+                  "city": {
+                    "code": "std:022",
+                    "name": "Mumbai"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "5",
+                  "city": {
+                    "code": "std:0522",
+                    "name": "Lucknow"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "8",
+                  "city": {
+                    "code": "std:040",
+                    "name": "Hyderabad"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "9",
+                  "city": {
+                    "code": "std:044",
+                    "name": "Chennai"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "122",
+                  "city": {
+                    "code": "std:0512",
+                    "name": "Kanpur"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "123",
+                  "city": {
+                    "code": "std:0542",
+                    "name": "Varanasi"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "124",
+                  "city": {
+                    "code": "std:020",
+                    "name": "Pune"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "125",
+                  "city": {
+                    "code": "std:08922",
+                    "name": "Vizayanagaram"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "126",
+                  "city": {
+                    "code": "std:080",
+                    "name": "Bengaluru"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "127",
+                  "city": {
+                    "name": "Mysore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "128",
+                  "city": {
+                    "code": "std:0836",
+                    "name": "Hubli"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "129",
+                  "city": {
+                    "name": "Tumkur",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "130",
+                  "city": {
+                    "name": "Jharkh",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "131",
+                  "city": {
+                    "name": "Bihar",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "132",
+                  "city": {
+                    "name": "Orissa",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "133",
+                  "city": {
+                    "code": "std:0141",
+                    "name": "Jaipur"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "134",
+                  "city": {
+                    "name": "Gujarat",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "135",
+                  "city": {
+                    "code": "std:0755",
+                    "name": "Bhopal"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "136",
+                  "city": {
+                    "name": "4 Sahayaks per geography)",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "98",
+                  "city": {
+                    "code": "std:04344",
+                    "name": "Hosur"
+                  },
+                  "state": {
+                    "code": "TN",
+                    "name": "Tamil Nadu"
+                  }
+                },
+                {
+                  "id": "98",
+                  "city": {
+                    "code": "std:04344",
+                    "name": "Hosur"
+                  },
+                  "state": {
+                    "code": "TN",
+                    "name": "Tamil Nadu"
+                  }
+                },
+                {
+                  "id": "2",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "2",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "17",
+                  "city": {
+                    "name": "Koramangala",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "1",
+                  "city": {
+                    "code": "std:0120",
+                    "name": "Greater Noida"
+                  },
+                  "state": {
+                    "code": "UP",
+                    "name": "Uttar Pradesh"
+                  }
+                }
+              ],
+              "fulfillments": [
+                {
+                  "id": "4",
+                  "type": "remote",
+                  "tracking": false
+                },
+                {
+                  "id": "5",
+                  "type": "hybrid",
+                  "tracking": false
+                },
+                {
+                  "id": "6",
+                  "type": "Onsite",
+                  "tracking": false
+                }
+              ],
+              "items": [
+                {
+                  "id": "141",
+                  "descriptor": {
+                    "name": "Assembly Line Operator",
+                    "long_desc": "Assemble the Mobile Phone\nQuality Inspection\nQuality Management\n"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Wistron"
+                    }
+                  },
+                  "location_ids": [
+                    "14",
+                    "15"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "142",
+                  "descriptor": {
+                    "name": "Sahayak's",
+                    "long_desc": "Jeevitam is building an ecosystem of Livelihood Partners by providing adequate freelancing opportunities. Sahayaks or Livelihood partners can be any individual looking for work opportunities as an additional source of income, flexible working hours and remote working i.e. work from home at your convenience. Sahayaks can be anywhere in India."
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Jeevitam Sahayaks"
+                    }
+                  },
+                  "location_ids": [
+                    "122",
+                    "5",
+                    "123",
+                    "3",
+                    "4",
+                    "124",
+                    "8",
+                    "125",
+                    "9",
+                    "126",
+                    "127",
+                    "128",
+                    "129",
+                    "130",
+                    "131",
+                    "132",
+                    "133",
+                    "134",
+                    "135",
+                    "136"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "143",
+                  "descriptor": {
+                    "name": "Blue collar workers female",
+                    "long_desc": "Technician"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Tata Electronics"
+                    }
+                  },
+                  "location_ids": [
+                    "98"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "144",
+                  "descriptor": {
+                    "name": "Blue collar workers female",
+                    "long_desc": "OLA Electric bike Manufacturing"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "OLA"
+                    }
+                  },
+                  "location_ids": [
+                    "98"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "145",
+                  "descriptor": {
+                    "name": "Customer Support/Credit Card Sales/BPO",
+                    "long_desc": "Inbound Call receiving & providing desired information to the caller, Documentation of customer details, Identify the needs of customers, resolve issues, and provide solutions,"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Vindhya E-Infomedia Pvt Ltd"
+                    }
+                  },
+                  "location_ids": [
+                    "2"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "146",
+                  "descriptor": {
+                    "name": "Telecaller",
+                    "long_desc": "1. Opening of Demat Accounts and to complete his/her targets.\n\n2. Will be responsible to map potential customers and existing clients for referrals to generate sales leads.\n\n3. Document collections, KYC and other verifications.\n\n4. Responsible in making outbound calls to open Demat Accounts for leads.\n\n5.Any Graduate & Freshers also can apply.\n\n6.Salary with good incentives, Preferring both Male and Female\n\n7.Candidates with good fluency in Tamil,Kannada,Telugu,Malayalam,Hindi are preferred\n"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Fore Blend Infiscripts Pvt Ltd"
+                    }
+                  },
+                  "location_ids": [
+                    "17",
+                    "2"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "147",
+                  "descriptor": {
+                    "name": "BDE/CIC",
+                    "long_desc": "Increase free & Paid listing in Justdial Platform, Manager sales & Post sales queries of Customers"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Just Dial"
+                    }
+                  },
+                  "location_ids": [
+                    "1"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_search",
+        "version": "1.1.0",
+        "bpp_id": "jobs.sahi1.in",
+        "bpp_uri": "https://jobs.sahi1.in/",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "cf080eae-6681-4128-b5a4-eb27cdfb72e9",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:54:16.449Z"
+      },
+      "message": {
+        "catalog": {
+          "descriptor": {
+            "name": "Sahi Jobs",
+            "short_desc": "short desp",
+            "images": []
+          },
+          "providers": [
+            {
+              "id": "jobs.sahi1.in",
+              "descriptor": {
+                "name": "Sahi Jobs",
+                "short_desc": "short desp",
+                "images": []
+              },
+              "fulfillments": [
+                {
+                  "id": "1",
+                  "type": "remote",
+                  "tracking": false
+                }
+              ],
+              "locations": [
+                {
+                  "id": "L1",
+                  "city": {
+                    "name": "Chennai",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "TAMIL NADU",
+                    "code": ""
+                  }
+                },
+                {
+                  "id": "L2",
+                  "city": {
+                    "name": "Ahmedabad",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "GUJARAT",
+                    "code": ""
+                  }
+                },
+                {
+                  "id": "L3",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "KARNATAKA",
+                    "code": ""
+                  }
+                }
+              ],
+              "items": [
+                {
+                  "id": "6524ec020307f4da4ea54ecf",
+                  "descriptor": {
+                    "name": "Operator_Maduranganam_Naps",
+                    "long_desc": "The job would be to size metal parts to close tolerances and fit and assemble them using hand tools for production or repair of machines, or other metal products. Studies drawings to understand specification of different parts, fittings or assembles to be made and their functions. Cuts and shapes required parts dimensions and specifications by processes of sawing, clipping, filing, grinding, drilling holes, screw cutting, scrapping etc.,  Assembles parts by riveting, screwing, pinning etc. So as to make complete unit according to drawing. Dismantles or removes worn out, broken or defective parts using hand tools and replaces them by repaired or new ones. Tests completed article to ensure correct performance. May do simple turning, planning and shaping of parts on machines and perform welding, brazing, annealing, hardening, tempering and, like operations. May specialize in particular type of machine or product and be designated accordingly. Can suggest alterations.\n"
+                  },
+                  "location_ids": [
+                    "L1"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                },
+                {
+                  "id": "65782e1ae50b97b52eebc499",
+                  "descriptor": {
+                    "name": "Promoters",
+                    "long_desc": "Promoting Amazon pay to The Auto rickshaws drivers to use it\ncashless benefits\nfield work\nC2C "
+                  },
+                  "location_ids": [
+                    "L2"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                },
+                {
+                  "id": "659791405040d97b2ab615fa",
+                  "descriptor": {
+                    "name": "Inside Sales Excutive",
+                    "long_desc": "1 Customer Handling ● Receiving customer with smile and greet him with Politeness, courteousness and professionalism ● Verify the service requests made by customers & Capture VOC of the customer and update in the system ● Conversational skill for telephonic as well as face to face discussion ● Customer communications about repair updates 2 Diagnosis ● Analyse and Diagnose the Scooter to identify number and type of repairs applicable ● Update the diagnosis report in the WMS (Getafix) ● Perform repairs & final inspection on the vehicle if the desired repairs as per the customer Voice is performed 3 System Handling ● Track the Customer complaint in Zendesk and update the system on live basis ● Operate Workshop Management System (Getafix) and ensure 100 % adherence ● Update operational Status and ETA on timely basis in both CRM and WMS systems ● Check for scooter health in Telematics Command centre for deep diagnosis 4 Technical Repairs ● Service Champion should be fully equipped with knowledge on OLA Scooter ● Could able to repair/replace all the parts of the scooter ● Ensure he/she is updated on OLA technical curricular, news bulletin on EV 5 Process and Operational ● Process adherence at Experience Centre and also ensure bays are clearly marked for Vehicle/Scooters. ● Invoicing and Payment Collections ● Ensure bays are free from any foreign materials and fit for serviceability 6 Parts Operation ● Auditing the inventory and ensure system and physical inventory is same ● Perform GRN and maintain Inventory at Experience Centre ● Ensuring Warranty part reverse logistics to the Mother workshop"
+                  },
+                  "location_ids": [
+                    "L3"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "payments": []
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_search",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "location": {
+          "country": {
+            "name": "India",
+            "code": "IND"
+          },
+          "city": {
+            "name": "Bangalore",
+            "code": "std:080"
+          }
+        },
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "cf080eae-6681-4128-b5a4-eb27cdfb72e9",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:54:16.357Z"
+      },
+      "message": {
+        "catalog": {
+          "providers": [
+            {
+              "id": "1",
+              "descriptor": {
+                "name": "Jeevitam"
+              },
+              "locations": [
+                {
+                  "id": "14",
+                  "city": {
+                    "code": "std:08152",
+                    "name": "Kolar"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "15",
+                  "city": {
+                    "name": "Karnataka",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "3",
+                  "city": {
+                    "code": "std:011",
+                    "name": "Delhi"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "4",
+                  "city": {
+                    "code": "std:022",
+                    "name": "Mumbai"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "5",
+                  "city": {
+                    "code": "std:0522",
+                    "name": "Lucknow"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "8",
+                  "city": {
+                    "code": "std:040",
+                    "name": "Hyderabad"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "9",
+                  "city": {
+                    "code": "std:044",
+                    "name": "Chennai"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "122",
+                  "city": {
+                    "code": "std:0512",
+                    "name": "Kanpur"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "123",
+                  "city": {
+                    "code": "std:0542",
+                    "name": "Varanasi"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "124",
+                  "city": {
+                    "code": "std:020",
+                    "name": "Pune"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "125",
+                  "city": {
+                    "code": "std:08922",
+                    "name": "Vizayanagaram"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "126",
+                  "city": {
+                    "code": "std:080",
+                    "name": "Bengaluru"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "127",
+                  "city": {
+                    "name": "Mysore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "128",
+                  "city": {
+                    "code": "std:0836",
+                    "name": "Hubli"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "129",
+                  "city": {
+                    "name": "Tumkur",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "130",
+                  "city": {
+                    "name": "Jharkh",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "131",
+                  "city": {
+                    "name": "Bihar",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "132",
+                  "city": {
+                    "name": "Orissa",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "133",
+                  "city": {
+                    "code": "std:0141",
+                    "name": "Jaipur"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "134",
+                  "city": {
+                    "name": "Gujarat",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "135",
+                  "city": {
+                    "code": "std:0755",
+                    "name": "Bhopal"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "136",
+                  "city": {
+                    "name": "4 Sahayaks per geography)",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "98",
+                  "city": {
+                    "code": "std:04344",
+                    "name": "Hosur"
+                  },
+                  "state": {
+                    "code": "TN",
+                    "name": "Tamil Nadu"
+                  }
+                },
+                {
+                  "id": "98",
+                  "city": {
+                    "code": "std:04344",
+                    "name": "Hosur"
+                  },
+                  "state": {
+                    "code": "TN",
+                    "name": "Tamil Nadu"
+                  }
+                },
+                {
+                  "id": "2",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "2",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "17",
+                  "city": {
+                    "name": "Koramangala",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "1",
+                  "city": {
+                    "code": "std:0120",
+                    "name": "Greater Noida"
+                  },
+                  "state": {
+                    "code": "UP",
+                    "name": "Uttar Pradesh"
+                  }
+                }
+              ],
+              "fulfillments": [
+                {
+                  "id": "4",
+                  "type": "remote",
+                  "tracking": false
+                },
+                {
+                  "id": "5",
+                  "type": "hybrid",
+                  "tracking": false
+                },
+                {
+                  "id": "6",
+                  "type": "Onsite",
+                  "tracking": false
+                }
+              ],
+              "items": [
+                {
+                  "id": "141",
+                  "descriptor": {
+                    "name": "Assembly Line Operator",
+                    "long_desc": "Assemble the Mobile Phone\nQuality Inspection\nQuality Management\n"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Wistron"
+                    }
+                  },
+                  "location_ids": [
+                    "14",
+                    "15"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "142",
+                  "descriptor": {
+                    "name": "Sahayak's",
+                    "long_desc": "Jeevitam is building an ecosystem of Livelihood Partners by providing adequate freelancing opportunities. Sahayaks or Livelihood partners can be any individual looking for work opportunities as an additional source of income, flexible working hours and remote working i.e. work from home at your convenience. Sahayaks can be anywhere in India."
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Jeevitam Sahayaks"
+                    }
+                  },
+                  "location_ids": [
+                    "122",
+                    "5",
+                    "123",
+                    "3",
+                    "4",
+                    "124",
+                    "8",
+                    "125",
+                    "9",
+                    "126",
+                    "127",
+                    "128",
+                    "129",
+                    "130",
+                    "131",
+                    "132",
+                    "133",
+                    "134",
+                    "135",
+                    "136"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "143",
+                  "descriptor": {
+                    "name": "Blue collar workers female",
+                    "long_desc": "Technician"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Tata Electronics"
+                    }
+                  },
+                  "location_ids": [
+                    "98"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "144",
+                  "descriptor": {
+                    "name": "Blue collar workers female",
+                    "long_desc": "OLA Electric bike Manufacturing"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "OLA"
+                    }
+                  },
+                  "location_ids": [
+                    "98"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "145",
+                  "descriptor": {
+                    "name": "Customer Support/Credit Card Sales/BPO",
+                    "long_desc": "Inbound Call receiving & providing desired information to the caller, Documentation of customer details, Identify the needs of customers, resolve issues, and provide solutions,"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Vindhya E-Infomedia Pvt Ltd"
+                    }
+                  },
+                  "location_ids": [
+                    "2"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "146",
+                  "descriptor": {
+                    "name": "Telecaller",
+                    "long_desc": "1. Opening of Demat Accounts and to complete his/her targets.\n\n2. Will be responsible to map potential customers and existing clients for referrals to generate sales leads.\n\n3. Document collections, KYC and other verifications.\n\n4. Responsible in making outbound calls to open Demat Accounts for leads.\n\n5.Any Graduate & Freshers also can apply.\n\n6.Salary with good incentives, Preferring both Male and Female\n\n7.Candidates with good fluency in Tamil,Kannada,Telugu,Malayalam,Hindi are preferred\n"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Fore Blend Infiscripts Pvt Ltd"
+                    }
+                  },
+                  "location_ids": [
+                    "17",
+                    "2"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "147",
+                  "descriptor": {
+                    "name": "BDE/CIC",
+                    "long_desc": "Increase free & Paid listing in Justdial Platform, Manager sales & Post sales queries of Customers"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Just Dial"
+                    }
+                  },
+                  "location_ids": [
+                    "1"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_search",
+        "version": "1.1.0",
+        "bpp_id": "jobs.sahi1.in",
+        "bpp_uri": "https://jobs.sahi1.in/",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "cf080eae-6681-4128-b5a4-eb27cdfb72e9",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:54:16.449Z"
+      },
+      "message": {
+        "catalog": {
+          "descriptor": {
+            "name": "Sahi Jobs",
+            "short_desc": "short desp",
+            "images": []
+          },
+          "providers": [
+            {
+              "id": "jobs.sahi1.in",
+              "descriptor": {
+                "name": "Sahi Jobs",
+                "short_desc": "short desp",
+                "images": []
+              },
+              "fulfillments": [
+                {
+                  "id": "1",
+                  "type": "remote",
+                  "tracking": false
+                }
+              ],
+              "locations": [
+                {
+                  "id": "L1",
+                  "city": {
+                    "name": "Chennai",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "TAMIL NADU",
+                    "code": ""
+                  }
+                },
+                {
+                  "id": "L2",
+                  "city": {
+                    "name": "Ahmedabad",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "GUJARAT",
+                    "code": ""
+                  }
+                },
+                {
+                  "id": "L3",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "KARNATAKA",
+                    "code": ""
+                  }
+                }
+              ],
+              "items": [
+                {
+                  "id": "6524ec020307f4da4ea54ecf",
+                  "descriptor": {
+                    "name": "Operator_Maduranganam_Naps",
+                    "long_desc": "The job would be to size metal parts to close tolerances and fit and assemble them using hand tools for production or repair of machines, or other metal products. Studies drawings to understand specification of different parts, fittings or assembles to be made and their functions. Cuts and shapes required parts dimensions and specifications by processes of sawing, clipping, filing, grinding, drilling holes, screw cutting, scrapping etc.,  Assembles parts by riveting, screwing, pinning etc. So as to make complete unit according to drawing. Dismantles or removes worn out, broken or defective parts using hand tools and replaces them by repaired or new ones. Tests completed article to ensure correct performance. May do simple turning, planning and shaping of parts on machines and perform welding, brazing, annealing, hardening, tempering and, like operations. May specialize in particular type of machine or product and be designated accordingly. Can suggest alterations.\n"
+                  },
+                  "location_ids": [
+                    "L1"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                },
+                {
+                  "id": "65782e1ae50b97b52eebc499",
+                  "descriptor": {
+                    "name": "Promoters",
+                    "long_desc": "Promoting Amazon pay to The Auto rickshaws drivers to use it\ncashless benefits\nfield work\nC2C "
+                  },
+                  "location_ids": [
+                    "L2"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                },
+                {
+                  "id": "659791405040d97b2ab615fa",
+                  "descriptor": {
+                    "name": "Inside Sales Excutive",
+                    "long_desc": "1 Customer Handling ● Receiving customer with smile and greet him with Politeness, courteousness and professionalism ● Verify the service requests made by customers & Capture VOC of the customer and update in the system ● Conversational skill for telephonic as well as face to face discussion ● Customer communications about repair updates 2 Diagnosis ● Analyse and Diagnose the Scooter to identify number and type of repairs applicable ● Update the diagnosis report in the WMS (Getafix) ● Perform repairs & final inspection on the vehicle if the desired repairs as per the customer Voice is performed 3 System Handling ● Track the Customer complaint in Zendesk and update the system on live basis ● Operate Workshop Management System (Getafix) and ensure 100 % adherence ● Update operational Status and ETA on timely basis in both CRM and WMS systems ● Check for scooter health in Telematics Command centre for deep diagnosis 4 Technical Repairs ● Service Champion should be fully equipped with knowledge on OLA Scooter ● Could able to repair/replace all the parts of the scooter ● Ensure he/she is updated on OLA technical curricular, news bulletin on EV 5 Process and Operational ● Process adherence at Experience Centre and also ensure bays are clearly marked for Vehicle/Scooters. ● Invoicing and Payment Collections ● Ensure bays are free from any foreign materials and fit for serviceability 6 Parts Operation ● Auditing the inventory and ensure system and physical inventory is same ● Perform GRN and maintain Inventory at Experience Centre ● Ensuring Warranty part reverse logistics to the Mother workshop"
+                  },
+                  "location_ids": [
+                    "L3"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "payments": []
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_search",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "location": {
+          "country": {
+            "name": "India",
+            "code": "IND"
+          },
+          "city": {
+            "name": "Bangalore",
+            "code": "std:080"
+          }
+        },
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "cf080eae-6681-4128-b5a4-eb27cdfb72e9",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:54:16.357Z"
+      },
+      "message": {
+        "catalog": {
+          "providers": [
+            {
+              "id": "1",
+              "descriptor": {
+                "name": "Jeevitam"
+              },
+              "locations": [
+                {
+                  "id": "14",
+                  "city": {
+                    "code": "std:08152",
+                    "name": "Kolar"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "15",
+                  "city": {
+                    "name": "Karnataka",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "3",
+                  "city": {
+                    "code": "std:011",
+                    "name": "Delhi"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "4",
+                  "city": {
+                    "code": "std:022",
+                    "name": "Mumbai"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "5",
+                  "city": {
+                    "code": "std:0522",
+                    "name": "Lucknow"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "8",
+                  "city": {
+                    "code": "std:040",
+                    "name": "Hyderabad"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "9",
+                  "city": {
+                    "code": "std:044",
+                    "name": "Chennai"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "122",
+                  "city": {
+                    "code": "std:0512",
+                    "name": "Kanpur"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "123",
+                  "city": {
+                    "code": "std:0542",
+                    "name": "Varanasi"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "124",
+                  "city": {
+                    "code": "std:020",
+                    "name": "Pune"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "125",
+                  "city": {
+                    "code": "std:08922",
+                    "name": "Vizayanagaram"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "126",
+                  "city": {
+                    "code": "std:080",
+                    "name": "Bengaluru"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "127",
+                  "city": {
+                    "name": "Mysore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "128",
+                  "city": {
+                    "code": "std:0836",
+                    "name": "Hubli"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "129",
+                  "city": {
+                    "name": "Tumkur",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "130",
+                  "city": {
+                    "name": "Jharkh",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "131",
+                  "city": {
+                    "name": "Bihar",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "132",
+                  "city": {
+                    "name": "Orissa",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "133",
+                  "city": {
+                    "code": "std:0141",
+                    "name": "Jaipur"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "134",
+                  "city": {
+                    "name": "Gujarat",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "135",
+                  "city": {
+                    "code": "std:0755",
+                    "name": "Bhopal"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "136",
+                  "city": {
+                    "name": "4 Sahayaks per geography)",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "IND",
+                    "name": "Pan India"
+                  }
+                },
+                {
+                  "id": "98",
+                  "city": {
+                    "code": "std:04344",
+                    "name": "Hosur"
+                  },
+                  "state": {
+                    "code": "TN",
+                    "name": "Tamil Nadu"
+                  }
+                },
+                {
+                  "id": "98",
+                  "city": {
+                    "code": "std:04344",
+                    "name": "Hosur"
+                  },
+                  "state": {
+                    "code": "TN",
+                    "name": "Tamil Nadu"
+                  }
+                },
+                {
+                  "id": "2",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "2",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "17",
+                  "city": {
+                    "name": "Koramangala",
+                    "code": "std:000"
+                  },
+                  "state": {
+                    "code": "KA",
+                    "name": "Karnataka"
+                  }
+                },
+                {
+                  "id": "1",
+                  "city": {
+                    "code": "std:0120",
+                    "name": "Greater Noida"
+                  },
+                  "state": {
+                    "code": "UP",
+                    "name": "Uttar Pradesh"
+                  }
+                }
+              ],
+              "fulfillments": [
+                {
+                  "id": "4",
+                  "type": "remote",
+                  "tracking": false
+                },
+                {
+                  "id": "5",
+                  "type": "hybrid",
+                  "tracking": false
+                },
+                {
+                  "id": "6",
+                  "type": "Onsite",
+                  "tracking": false
+                }
+              ],
+              "items": [
+                {
+                  "id": "141",
+                  "descriptor": {
+                    "name": "Assembly Line Operator",
+                    "long_desc": "Assemble the Mobile Phone\nQuality Inspection\nQuality Management\n"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Wistron"
+                    }
+                  },
+                  "location_ids": [
+                    "14",
+                    "15"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "142",
+                  "descriptor": {
+                    "name": "Sahayak's",
+                    "long_desc": "Jeevitam is building an ecosystem of Livelihood Partners by providing adequate freelancing opportunities. Sahayaks or Livelihood partners can be any individual looking for work opportunities as an additional source of income, flexible working hours and remote working i.e. work from home at your convenience. Sahayaks can be anywhere in India."
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Jeevitam Sahayaks"
+                    }
+                  },
+                  "location_ids": [
+                    "122",
+                    "5",
+                    "123",
+                    "3",
+                    "4",
+                    "124",
+                    "8",
+                    "125",
+                    "9",
+                    "126",
+                    "127",
+                    "128",
+                    "129",
+                    "130",
+                    "131",
+                    "132",
+                    "133",
+                    "134",
+                    "135",
+                    "136"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "143",
+                  "descriptor": {
+                    "name": "Blue collar workers female",
+                    "long_desc": "Technician"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Tata Electronics"
+                    }
+                  },
+                  "location_ids": [
+                    "98"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "144",
+                  "descriptor": {
+                    "name": "Blue collar workers female",
+                    "long_desc": "OLA Electric bike Manufacturing"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "OLA"
+                    }
+                  },
+                  "location_ids": [
+                    "98"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "145",
+                  "descriptor": {
+                    "name": "Customer Support/Credit Card Sales/BPO",
+                    "long_desc": "Inbound Call receiving & providing desired information to the caller, Documentation of customer details, Identify the needs of customers, resolve issues, and provide solutions,"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Vindhya E-Infomedia Pvt Ltd"
+                    }
+                  },
+                  "location_ids": [
+                    "2"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "146",
+                  "descriptor": {
+                    "name": "Telecaller",
+                    "long_desc": "1. Opening of Demat Accounts and to complete his/her targets.\n\n2. Will be responsible to map potential customers and existing clients for referrals to generate sales leads.\n\n3. Document collections, KYC and other verifications.\n\n4. Responsible in making outbound calls to open Demat Accounts for leads.\n\n5.Any Graduate & Freshers also can apply.\n\n6.Salary with good incentives, Preferring both Male and Female\n\n7.Candidates with good fluency in Tamil,Kannada,Telugu,Malayalam,Hindi are preferred\n"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Fore Blend Infiscripts Pvt Ltd"
+                    }
+                  },
+                  "location_ids": [
+                    "17",
+                    "2"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                },
+                {
+                  "id": "147",
+                  "descriptor": {
+                    "name": "BDE/CIC",
+                    "long_desc": "Increase free & Paid listing in Justdial Platform, Manager sales & Post sales queries of Customers"
+                  },
+                  "creator": {
+                    "descriptor": {
+                      "name": "Just Dial"
+                    }
+                  },
+                  "location_ids": [
+                    "1"
+                  ],
+                  "fulfillment_ids": [
+                    "4"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_search",
+        "version": "1.1.0",
+        "bpp_id": "jobs.sahi1.in",
+        "bpp_uri": "https://jobs.sahi1.in/",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "cf080eae-6681-4128-b5a4-eb27cdfb72e9",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:54:16.449Z"
+      },
+      "message": {
+        "catalog": {
+          "descriptor": {
+            "name": "Sahi Jobs",
+            "short_desc": "short desp",
+            "images": []
+          },
+          "providers": [
+            {
+              "id": "jobs.sahi1.in",
+              "descriptor": {
+                "name": "Sahi Jobs",
+                "short_desc": "short desp",
+                "images": []
+              },
+              "fulfillments": [
+                {
+                  "id": "1",
+                  "type": "remote",
+                  "tracking": false
+                }
+              ],
+              "locations": [
+                {
+                  "id": "L1",
+                  "city": {
+                    "name": "Chennai",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "TAMIL NADU",
+                    "code": ""
+                  }
+                },
+                {
+                  "id": "L2",
+                  "city": {
+                    "name": "Ahmedabad",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "GUJARAT",
+                    "code": ""
+                  }
+                },
+                {
+                  "id": "L3",
+                  "city": {
+                    "name": "Bangalore",
+                    "code": ""
+                  },
+                  "state": {
+                    "name": "KARNATAKA",
+                    "code": ""
+                  }
+                }
+              ],
+              "items": [
+                {
+                  "id": "6524ec020307f4da4ea54ecf",
+                  "descriptor": {
+                    "name": "Operator_Maduranganam_Naps",
+                    "long_desc": "The job would be to size metal parts to close tolerances and fit and assemble them using hand tools for production or repair of machines, or other metal products. Studies drawings to understand specification of different parts, fittings or assembles to be made and their functions. Cuts and shapes required parts dimensions and specifications by processes of sawing, clipping, filing, grinding, drilling holes, screw cutting, scrapping etc.,  Assembles parts by riveting, screwing, pinning etc. So as to make complete unit according to drawing. Dismantles or removes worn out, broken or defective parts using hand tools and replaces them by repaired or new ones. Tests completed article to ensure correct performance. May do simple turning, planning and shaping of parts on machines and perform welding, brazing, annealing, hardening, tempering and, like operations. May specialize in particular type of machine or product and be designated accordingly. Can suggest alterations.\n"
+                  },
+                  "location_ids": [
+                    "L1"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                },
+                {
+                  "id": "65782e1ae50b97b52eebc499",
+                  "descriptor": {
+                    "name": "Promoters",
+                    "long_desc": "Promoting Amazon pay to The Auto rickshaws drivers to use it\ncashless benefits\nfield work\nC2C "
+                  },
+                  "location_ids": [
+                    "L2"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                },
+                {
+                  "id": "659791405040d97b2ab615fa",
+                  "descriptor": {
+                    "name": "Inside Sales Excutive",
+                    "long_desc": "1 Customer Handling ● Receiving customer with smile and greet him with Politeness, courteousness and professionalism ● Verify the service requests made by customers & Capture VOC of the customer and update in the system ● Conversational skill for telephonic as well as face to face discussion ● Customer communications about repair updates 2 Diagnosis ● Analyse and Diagnose the Scooter to identify number and type of repairs applicable ● Update the diagnosis report in the WMS (Getafix) ● Perform repairs & final inspection on the vehicle if the desired repairs as per the customer Voice is performed 3 System Handling ● Track the Customer complaint in Zendesk and update the system on live basis ● Operate Workshop Management System (Getafix) and ensure 100 % adherence ● Update operational Status and ETA on timely basis in both CRM and WMS systems ● Check for scooter health in Telematics Command centre for deep diagnosis 4 Technical Repairs ● Service Champion should be fully equipped with knowledge on OLA Scooter ● Could able to repair/replace all the parts of the scooter ● Ensure he/she is updated on OLA technical curricular, news bulletin on EV 5 Process and Operational ● Process adherence at Experience Centre and also ensure bays are clearly marked for Vehicle/Scooters. ● Invoicing and Payment Collections ● Ensure bays are free from any foreign materials and fit for serviceability 6 Parts Operation ● Auditing the inventory and ensure system and physical inventory is same ● Perform GRN and maintain Inventory at Experience Centre ● Ensuring Warranty part reverse logistics to the Mother workshop"
+                  },
+                  "location_ids": [
+                    "L3"
+                  ],
+                  "fulfillment_ids": [
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "payments": []
+        }
+      }
+    }
+  ]
+}

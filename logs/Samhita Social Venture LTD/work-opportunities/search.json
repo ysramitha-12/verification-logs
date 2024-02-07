@@ -1,0 +1,31 @@
+{
+    "context": {
+        "domain": "onest:work-opportunities",
+        "action": "search",
+        "version": "1.1.0",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "location": {
+            "country": {
+                "name": "India",
+                "code": "IND"
+            },
+            "city": {
+                "name": "Bangalore",
+                "code": "std:080"
+            }
+        },
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "cf080eae-6681-4128-b5a4-eb27cdfb72e9",
+        "timestamp": "2024-02-07T03:54:08.703Z"
+    },
+    "message": {
+        "intent": {
+            "item": {
+                "descriptor": {
+                    "name": ""
+                }
+            }
+        }
+    }
+}
