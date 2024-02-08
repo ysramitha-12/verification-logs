@@ -1,0 +1,791 @@
+{
+  "context": {
+    "ttl": "PT10M",
+    "action": "init",
+    "timestamp": "2024-02-07T04:00:50.078Z",
+    "message_id": "641df2a4-d33b-4279-b9a2-60de16fa75c1",
+    "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+    "domain": "onest:work-opportunities",
+    "version": "1.1.0",
+    "bap_id": "wo-network.samhita.org",
+    "bap_uri": "https://wo-network.samhita.org/",
+    "bpp_id": "dash-beckn.tibilapps.com",
+    "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network"
+  },
+  "responses": [
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_init",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "641df2a4-d33b-4279-b9a2-60de16fa75c1",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T04:00:56.969Z"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "1",
+            "descriptor": {
+              "name": "Jeevitam"
+            }
+          },
+          "items": [
+            {
+              "id": "141",
+              "descriptor": {
+                "name": "Assembly Line Operator - Wistron"
+              },
+              "fulfillment_ids": [
+                "4"
+              ],
+              "location_ids": [
+                "14",
+                "15"
+              ],
+              "tags": [
+                {
+                  "descriptor": {
+                    "name": "Work Experience"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Experience"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Experience"
+                      },
+                      "value": "5"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Educational Qualifications"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Qualification"
+                      },
+                      "value": "ITI"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Qualification"
+                      },
+                      "value": "Diploma"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Salary Compensation",
+                    "code": "salary-info"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Salary"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Salary"
+                      },
+                      "value": "0"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Gender",
+                    "code": "gender"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Gender"
+                      },
+                      "value": "Female"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Age",
+                    "code": "age"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Age"
+                      },
+                      "value": "18"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Age"
+                      },
+                      "value": "26"
+                    }
+                  ],
+                  "display": true
+                }
+              ],
+              "xinput": {
+                "required": true,
+                "head": {
+                  "descriptor": {
+                    "name": "Application Form"
+                  },
+                  "index": {
+                    "min": 0,
+                    "cur": 0,
+                    "max": 1
+                  },
+                  "headings": [
+                    [
+                      "Personal Details"
+                    ]
+                  ]
+                },
+                "form": {
+                  "mime_type": "text/html",
+                  "url": "https://dash-beckn.tibilapps.com/job/form?org_id=1&transaction_id=75abe1e5-78f6-485c-97da-ffeae2391143&job_id=141&curr_page=0"
+                }
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "customer": {
+                "person": {
+                  "name": "John Doe",
+                  "gender": "male",
+                  "age": "25",
+                  "languages": [
+                    {
+                      "code": "ENG"
+                    },
+                    {
+                      "code": "HIN"
+                    }
+                  ],
+                  "skills": [
+                    {
+                      "name": "NodeJS"
+                    },
+                    {
+                      "name": "React"
+                    },
+                    {
+                      "name": "Project Management"
+                    },
+                    {
+                      "name": "Enterprise Architecture"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "code": "current-experience",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "exp-years",
+                            "name": "Experience"
+                          },
+                          "value": "P4Y2M"
+                        },
+                        {
+                          "descriptor": {
+                            "code": "current-company",
+                            "name": "Current Company"
+                          },
+                          "value": "ABC tech"
+                        }
+                      ],
+                      "display": true
+                    },
+                    {
+                      "code": "salary-details",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "expected-salary",
+                            "name": "Expected Salary"
+                          },
+                          "value": "80000"
+                        },
+                        {
+                          "descriptor": {
+                            "code": "current-salary",
+                            "name": "Current Salary"
+                          },
+                          "value": "50000"
+                        }
+                      ],
+                      "display": true
+                    },
+                    {
+                      "code": "documents",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "resume",
+                            "name": "resume"
+                          },
+                          "value": "https://link-to-the-document.com"
+                        }
+                      ],
+                      "display": true
+                    }
+                  ]
+                },
+                "contact": {
+                  "phone": "9966335577",
+                  "email": "abc@abc.bc"
+                }
+              },
+              "tracking": false
+            }
+          ],
+          "type": "DEFAULT"
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_init",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "641df2a4-d33b-4279-b9a2-60de16fa75c1",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T04:00:56.969Z"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "1",
+            "descriptor": {
+              "name": "Jeevitam"
+            }
+          },
+          "items": [
+            {
+              "id": "141",
+              "descriptor": {
+                "name": "Assembly Line Operator - Wistron"
+              },
+              "fulfillment_ids": [
+                "4"
+              ],
+              "location_ids": [
+                "14",
+                "15"
+              ],
+              "tags": [
+                {
+                  "descriptor": {
+                    "name": "Work Experience"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Experience"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Experience"
+                      },
+                      "value": "5"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Educational Qualifications"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Qualification"
+                      },
+                      "value": "ITI"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Qualification"
+                      },
+                      "value": "Diploma"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Salary Compensation",
+                    "code": "salary-info"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Salary"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Salary"
+                      },
+                      "value": "0"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Gender",
+                    "code": "gender"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Gender"
+                      },
+                      "value": "Female"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Age",
+                    "code": "age"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Age"
+                      },
+                      "value": "18"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Age"
+                      },
+                      "value": "26"
+                    }
+                  ],
+                  "display": true
+                }
+              ],
+              "xinput": {
+                "required": true,
+                "head": {
+                  "descriptor": {
+                    "name": "Application Form"
+                  },
+                  "index": {
+                    "min": 0,
+                    "cur": 0,
+                    "max": 1
+                  },
+                  "headings": [
+                    [
+                      "Personal Details"
+                    ]
+                  ]
+                },
+                "form": {
+                  "mime_type": "text/html",
+                  "url": "https://dash-beckn.tibilapps.com/job/form?org_id=1&transaction_id=75abe1e5-78f6-485c-97da-ffeae2391143&job_id=141&curr_page=0"
+                }
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "customer": {
+                "person": {
+                  "name": "John Doe",
+                  "gender": "male",
+                  "age": "25",
+                  "languages": [
+                    {
+                      "code": "ENG"
+                    },
+                    {
+                      "code": "HIN"
+                    }
+                  ],
+                  "skills": [
+                    {
+                      "name": "NodeJS"
+                    },
+                    {
+                      "name": "React"
+                    },
+                    {
+                      "name": "Project Management"
+                    },
+                    {
+                      "name": "Enterprise Architecture"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "code": "current-experience",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "exp-years",
+                            "name": "Experience"
+                          },
+                          "value": "P4Y2M"
+                        },
+                        {
+                          "descriptor": {
+                            "code": "current-company",
+                            "name": "Current Company"
+                          },
+                          "value": "ABC tech"
+                        }
+                      ],
+                      "display": true
+                    },
+                    {
+                      "code": "salary-details",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "expected-salary",
+                            "name": "Expected Salary"
+                          },
+                          "value": "80000"
+                        },
+                        {
+                          "descriptor": {
+                            "code": "current-salary",
+                            "name": "Current Salary"
+                          },
+                          "value": "50000"
+                        }
+                      ],
+                      "display": true
+                    },
+                    {
+                      "code": "documents",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "resume",
+                            "name": "resume"
+                          },
+                          "value": "https://link-to-the-document.com"
+                        }
+                      ],
+                      "display": true
+                    }
+                  ]
+                },
+                "contact": {
+                  "phone": "9966335577",
+                  "email": "abc@abc.bc"
+                }
+              },
+              "tracking": false
+            }
+          ],
+          "type": "DEFAULT"
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_init",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "641df2a4-d33b-4279-b9a2-60de16fa75c1",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T04:00:56.969Z"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "1",
+            "descriptor": {
+              "name": "Jeevitam"
+            }
+          },
+          "items": [
+            {
+              "id": "141",
+              "descriptor": {
+                "name": "Assembly Line Operator - Wistron"
+              },
+              "fulfillment_ids": [
+                "4"
+              ],
+              "location_ids": [
+                "14",
+                "15"
+              ],
+              "tags": [
+                {
+                  "descriptor": {
+                    "name": "Work Experience"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Experience"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Experience"
+                      },
+                      "value": "5"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Educational Qualifications"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Qualification"
+                      },
+                      "value": "ITI"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Qualification"
+                      },
+                      "value": "Diploma"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Salary Compensation",
+                    "code": "salary-info"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Salary"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Salary"
+                      },
+                      "value": "0"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Gender",
+                    "code": "gender"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Gender"
+                      },
+                      "value": "Female"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Age",
+                    "code": "age"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Age"
+                      },
+                      "value": "18"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Age"
+                      },
+                      "value": "26"
+                    }
+                  ],
+                  "display": true
+                }
+              ],
+              "xinput": {
+                "required": true,
+                "head": {
+                  "descriptor": {
+                    "name": "Application Form"
+                  },
+                  "index": {
+                    "min": 0,
+                    "cur": 0,
+                    "max": 1
+                  },
+                  "headings": [
+                    [
+                      "Personal Details"
+                    ]
+                  ]
+                },
+                "form": {
+                  "mime_type": "text/html",
+                  "url": "https://dash-beckn.tibilapps.com/job/form?org_id=1&transaction_id=75abe1e5-78f6-485c-97da-ffeae2391143&job_id=141&curr_page=0"
+                }
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "1",
+              "customer": {
+                "person": {
+                  "name": "John Doe",
+                  "gender": "male",
+                  "age": "25",
+                  "languages": [
+                    {
+                      "code": "ENG"
+                    },
+                    {
+                      "code": "HIN"
+                    }
+                  ],
+                  "skills": [
+                    {
+                      "name": "NodeJS"
+                    },
+                    {
+                      "name": "React"
+                    },
+                    {
+                      "name": "Project Management"
+                    },
+                    {
+                      "name": "Enterprise Architecture"
+                    }
+                  ],
+                  "tags": [
+                    {
+                      "code": "current-experience",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "exp-years",
+                            "name": "Experience"
+                          },
+                          "value": "P4Y2M"
+                        },
+                        {
+                          "descriptor": {
+                            "code": "current-company",
+                            "name": "Current Company"
+                          },
+                          "value": "ABC tech"
+                        }
+                      ],
+                      "display": true
+                    },
+                    {
+                      "code": "salary-details",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "expected-salary",
+                            "name": "Expected Salary"
+                          },
+                          "value": "80000"
+                        },
+                        {
+                          "descriptor": {
+                            "code": "current-salary",
+                            "name": "Current Salary"
+                          },
+                          "value": "50000"
+                        }
+                      ],
+                      "display": true
+                    },
+                    {
+                      "code": "documents",
+                      "list": [
+                        {
+                          "descriptor": {
+                            "code": "resume",
+                            "name": "resume"
+                          },
+                          "value": "https://link-to-the-document.com"
+                        }
+                      ],
+                      "display": true
+                    }
+                  ]
+                },
+                "contact": {
+                  "phone": "9966335577",
+                  "email": "abc@abc.bc"
+                }
+              },
+              "tracking": false
+            }
+          ],
+          "type": "DEFAULT"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "context": {
+        "domain": "onest:work-opportunities",
+        "action": "select",
+        "version": "1.1.0",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "3b076ae5-1e2a-4815-8968-0fb67a27828b",
+        "timestamp": "2024-02-07T03:58:31.433Z"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "1"
+            },
+            "items": [
+                {
+                    "id": "141"
+                }
+            ]
+        }
+    }
+}

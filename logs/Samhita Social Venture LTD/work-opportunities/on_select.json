@@ -1,0 +1,458 @@
+{
+  "context": {
+    "ttl": "PT10M",
+    "action": "select",
+    "timestamp": "2024-02-07T03:58:31.709Z",
+    "message_id": "3b076ae5-1e2a-4815-8968-0fb67a27828b",
+    "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+    "domain": "onest:work-opportunities",
+    "version": "1.1.0",
+    "bap_id": "wo-network.samhita.org",
+    "bap_uri": "https://wo-network.samhita.org/",
+    "bpp_id": "dash-beckn.tibilapps.com",
+    "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network"
+  },
+  "responses": [
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_select",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "3b076ae5-1e2a-4815-8968-0fb67a27828b",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:58:37.956Z"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "1",
+            "descriptor": {
+              "name": "Jeevitam"
+            }
+          },
+          "items": [
+            {
+              "id": "141",
+              "descriptor": {
+                "name": "Assembly Line Operator"
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Wistron"
+                }
+              },
+              "location_ids": [
+                "14",
+                "15"
+              ],
+              "fulfillment_ids": [
+                "4"
+              ],
+              "tags": [
+                {
+                  "descriptor": {
+                    "name": "Work Experience"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Experience"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Experience"
+                      },
+                      "value": "5"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Educational Qualifications"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Qualification"
+                      },
+                      "value": "ITI"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Qualification"
+                      },
+                      "value": "Diploma"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Salary Compensation",
+                    "code": "salary-info"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Salary"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Salary"
+                      },
+                      "value": "0"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Gender",
+                    "code": "gender"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Gender"
+                      },
+                      "value": "Female"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Age",
+                    "code": "age"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Age"
+                      },
+                      "value": "18"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Age"
+                      },
+                      "value": "26"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            }
+          ],
+          "type": "DEFAULT"
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_select",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "3b076ae5-1e2a-4815-8968-0fb67a27828b",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:58:37.956Z"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "1",
+            "descriptor": {
+              "name": "Jeevitam"
+            }
+          },
+          "items": [
+            {
+              "id": "141",
+              "descriptor": {
+                "name": "Assembly Line Operator"
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Wistron"
+                }
+              },
+              "location_ids": [
+                "14",
+                "15"
+              ],
+              "fulfillment_ids": [
+                "4"
+              ],
+              "tags": [
+                {
+                  "descriptor": {
+                    "name": "Work Experience"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Experience"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Experience"
+                      },
+                      "value": "5"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Educational Qualifications"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Qualification"
+                      },
+                      "value": "ITI"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Qualification"
+                      },
+                      "value": "Diploma"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Salary Compensation",
+                    "code": "salary-info"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Salary"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Salary"
+                      },
+                      "value": "0"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Gender",
+                    "code": "gender"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Gender"
+                      },
+                      "value": "Female"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Age",
+                    "code": "age"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Age"
+                      },
+                      "value": "18"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Age"
+                      },
+                      "value": "26"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            }
+          ],
+          "type": "DEFAULT"
+        }
+      }
+    },
+    {
+      "context": {
+        "domain": "onest:work-opportunities",
+        "action": "on_select",
+        "version": "1.1.0",
+        "bpp_id": "dash-beckn.tibilapps.com",
+        "bpp_uri": "https://dash-beckn.tibilapps.com/protocol-network",
+        "country": "IND",
+        "city": "std:080",
+        "bap_id": "wo-network.samhita.org",
+        "bap_uri": "https://wo-network.samhita.org/",
+        "transaction_id": "75abe1e5-78f6-485c-97da-ffeae2391143",
+        "message_id": "3b076ae5-1e2a-4815-8968-0fb67a27828b",
+        "ttl": "PT10M",
+        "timestamp": "2024-02-07T03:58:37.956Z"
+      },
+      "message": {
+        "order": {
+          "provider": {
+            "id": "1",
+            "descriptor": {
+              "name": "Jeevitam"
+            }
+          },
+          "items": [
+            {
+              "id": "141",
+              "descriptor": {
+                "name": "Assembly Line Operator"
+              },
+              "creator": {
+                "descriptor": {
+                  "name": "Wistron"
+                }
+              },
+              "location_ids": [
+                "14",
+                "15"
+              ],
+              "fulfillment_ids": [
+                "4"
+              ],
+              "tags": [
+                {
+                  "descriptor": {
+                    "name": "Work Experience"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Experience"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Experience"
+                      },
+                      "value": "5"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Educational Qualifications"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Qualification"
+                      },
+                      "value": "ITI"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Qualification"
+                      },
+                      "value": "Diploma"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Salary Compensation",
+                    "code": "salary-info"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Salary"
+                      },
+                      "value": "0"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Salary"
+                      },
+                      "value": "0"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Gender",
+                    "code": "gender"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Gender"
+                      },
+                      "value": "Female"
+                    }
+                  ],
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "Age",
+                    "code": "age"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "Min Age"
+                      },
+                      "value": "18"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "Max Age"
+                      },
+                      "value": "26"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            }
+          ],
+          "type": "DEFAULT"
+        }
+      }
+    }
+  ]
+}
