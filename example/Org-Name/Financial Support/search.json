@@ -1,0 +1,24 @@
+{
+  "context": {
+      "domain": "onest:financial-support",
+      "action": "search",
+      "version": "1.1.0",
+      "bap_id": "sample.bap.io",
+      "bap_uri": "https://sample.bap.io",
+      "transaction_id": "a9aaecca-10b7-4d19-b640-022723112309",
+      "message_id": "a9aaecca-10b7-4d19-b640-b047a7c60009",
+      "timestamp": "2023-02-06T09:55:41.161Z",
+      "ttl": "PT10M"
+  },
+  "message": {
+      "intent": {
+          "fulfillment": {
+              "customer": {
+                  "person": {
+                      "gender": "Female"
+                  }
+              }
+          }
+      }
+  }
+}
