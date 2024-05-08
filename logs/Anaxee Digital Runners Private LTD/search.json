@@ -1,0 +1,22 @@
+{
+    "context": {
+        "domain": "onest:financial-support",
+        "action": "search",
+        "version": "1.1.0",
+        "bap_id": "d131-20-204-83-19.ngrok-free.app",
+        "bap_uri": "https://d131-20-204-83-19.ngrok-free.app",
+        "message_id": "{{$randomUUID}}",
+        "transaction_id": "{{$randomUUID}}",
+        "timestamp": "2023-02-06T09:55:41.161Z",
+        "ttl": "PT10M"
+    },
+    "message": {
+        "intent": {
+            "item": {
+                "descriptor": {
+                    "name": ""
+                }
+            }
+        }
+    }
+}

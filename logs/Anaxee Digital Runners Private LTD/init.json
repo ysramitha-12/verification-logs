@@ -1,0 +1,42 @@
+{
+    "context": {
+          "domain": "onest:financial-support",
+          "action": "init",
+          "version": "1.1.0",
+          "bap_id": "d131-20-204-83-19.ngrok-free.app",
+          "bap_uri": "https://d131-20-204-83-19.ngrok-free.app",
+          "bpp_id": "d.buddy4.fin.dash.tibilprojects.com",
+          "bpp_uri": "https://d.buddy4.fin.dash.tibilprojects.com/protocol-network",
+          "transaction_id": "eb020999-a9ae-44f7-9e97-a6db27202025",
+          "message_id": "{{$randomUUID}}",
+          "timestamp": "2024-04-30T12:05:53Z"
+      },
+    "message": {
+      "order": {
+        "fulfillments": [
+          {
+            "contact": {
+              "email": "ayush@mail.com",
+              "phone": "9753386039"
+            },
+            "customer": {
+              "person": {
+                "age": "91",
+                "gender": "Male",
+                "name": "ayush",
+                "tags": []
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+              "id": "8"
+          }
+        ],
+        "provider": {
+          "id": "1"
+        }
+      }
+    }
+  }
