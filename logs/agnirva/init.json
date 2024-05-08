@@ -1,0 +1,76 @@
+{
+    "context": {
+        "domain": "{{onest_learning_experiences}}",
+        "action": "init",
+        "version": "{{core_version}}",
+        "bap_id": "{{le_bap_id}}",
+        "bap_uri": "{{le_bap_uri}}",
+        "bpp_id": "d46d-2401-4900-3315-8c35-b4b2-ee07-d494-4d2d.ngrok-free.app",
+        "bpp_uri": "https://d46d-2401-4900-3315-8c35-b4b2-ee07-d494-4d2d.ngrok-free.app",
+        "location": {
+            "city": {
+                "name": "Bangalore",
+                "code": "std:080"
+            },
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+        "message_id": "{{$randomUUID}}",
+        "ttl": "PT10M",
+        "timestamp": "2024-05-08T16:43:41.161Z"
+    },
+    "message": {
+    "order": {
+      "provider": {
+        "id": "agnirva"
+      },
+      "items": [
+        {
+          "id": "2"
+        }
+      ],
+      "billing": {
+        "name": "Jane Doe",
+        "phone": "+91-9663088848",
+        "email": "jane.doe@example.com",
+        "address": "No 27, XYZ Lane, etc"
+      },
+      "fulfillments": [
+        {
+          "customer": {
+            "person": {
+              "name": "Jane Doe",
+              "age": "13",
+              "gender": "female",
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "professional-details",
+                    "name": "Professional Details"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "profession",
+                        "name": "profession"
+                      },
+                      "value": "student"
+                    }
+                  ],
+                  "display": true
+                }
+              ]
+            },
+            "contact": {
+              "phone": "+91-9663088848",
+              "email": "jane.doe@example.com"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
