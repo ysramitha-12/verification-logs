@@ -1,0 +1,212 @@
+{
+    "context": {
+        "ttl": "PT10M",
+        "action": "init",
+        "timestamp": "2024-05-08T11:35:42.788Z",
+        "message_id": "594f51c6-424e-4e29-96a9-f15372bd70bb",
+        "transaction_id": "eb020999-a9ae-44f7-9e97-a6db27202025",
+        "domain": "onest:financial-support",
+        "version": "1.1.0",
+        "bap_id": "d131-20-204-83-19.ngrok-free.app",
+        "bap_uri": "https://d131-20-204-83-19.ngrok-free.app",
+        "bpp_id": "d.buddy4.fin.dash.tibilprojects.com",
+        "bpp_uri": "https://d.buddy4.fin.dash.tibilprojects.com/protocol-network"
+    },
+    "responses": [
+        {
+            "context": {
+                "domain": "onest:financial-support",
+                "action": "on_init",
+                "version": "1.1.0",
+                "bpp_id": "d.buddy4.fin.dash.tibilprojects.com",
+                "bpp_uri": "https://d.buddy4.fin.dash.tibilprojects.com/protocol-network",
+                "country": "IND",
+                "city": "std:080",
+                "bap_id": "d131-20-204-83-19.ngrok-free.app",
+                "bap_uri": "https://d131-20-204-83-19.ngrok-free.app",
+                "transaction_id": "eb020999-a9ae-44f7-9e97-a6db27202025",
+                "message_id": "594f51c6-424e-4e29-96a9-f15372bd70bb",
+                "ttl": "PT10M",
+                "timestamp": "2024-05-08T11:35:48.632Z"
+            },
+            "message": {
+                "order": {
+                    "provider": {
+                        "id": "1",
+                        "descriptor": {
+                            "name": "buddy4"
+                        }
+                    },
+                    "items": [
+                        {
+                            "id": "8",
+                            "descriptor": {
+                                "name": "NSP Scholarships for Top Class Education for Students with Disabilities ",
+                                "long_desc": "NSP Scholarship for Top Class Education for Students with Disabilities offers financial aid to students with disabilities pursuing graduate, postgraduate, or diploma programmes. It is managed by the Department of Empowerment of Persons with Disabilities (DEPwD). This scholarship provides comprehensive financial support for tuition fees, assistive devices, and living expenses to promote quality education among these students.",
+                                "additional_desc": {
+                                    "opportunity_type": "Scholarship"
+                                }
+                            },
+                            "creator": {
+                                "descriptor": {
+                                    "name": "Department of Empowerment of Persons with Disabilities (DEPwD), Ministry of Social Justice and Empowerment, Government of India"
+                                }
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "\nA maintenance allowance up to ₹3,000 and other benefits"
+                            },
+                            "time": {
+                                "range": {
+                                    "start": "2024-03-20T13:23:01+00:00",
+                                    "end": "2024-03-20T13:23:01+00:00"
+                                }
+                            },
+                            "rateable": true,
+                            "tags": [
+                                {
+                                    "display": true,
+                                    "descriptor": {
+                                        "code": "academic-eligibility",
+                                        "name": "Academic-Eligibility"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Course",
+                                                "code": "course"
+                                            },
+                                            "value": "Gradutaion/postgraduation/diploma course",
+                                            "display": true
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Min-Eligibility",
+                                                "code": "min-eligibility"
+                                            },
+                                            "value": "Indian nationals\n\nDisability of 40% or more, as defined in ‘Rights of Persons with Disabilities Act, 2016\nApplicants must be pursuing a graduation/postgraduation/diploma course in a recognised institution/university, notified by the Department of Empowerment of Persons with Disabilities (DEPwD)",
+                                            "display": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "display": true,
+                                    "descriptor": {
+                                        "code": "background-eligibility",
+                                        "name": "Background-Eligibility"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Social-Eligibility",
+                                                "code": "social-eligibility"
+                                            },
+                                            "value": "-",
+                                            "display": true
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Gender-Eligibility",
+                                                "code": "gender-eligibility"
+                                            },
+                                            "value": "For All",
+                                            "display": true
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Annual-Income",
+                                                "code": "annual-income"
+                                            },
+                                            "value": "Not more than ₹8,00,000",
+                                            "display": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "display": true,
+                                    "descriptor": {
+                                        "code": "additional-info",
+                                        "name": "Additional-Info"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "name": "Buddy4-Url",
+                                                "code": "buddy4-url"
+                                            },
+                                            "value": "https://www.buddy4study.com/scholarship/nsp-scholarships-for-top-class-education-for-students-with-disabilities",
+                                            "display": true
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Source-Url",
+                                                "code": "source-url"
+                                            },
+                                            "value": "https://www.buddy4study.com/scholarship/nsp-scholarships-for-top-class-education-for-students-with-disabilities",
+                                            "display": true
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Document-Url",
+                                                "code": "document-url"
+                                            },
+                                            "value": "N/A",
+                                            "display": true
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Application-Mode",
+                                                "code": "application-mode"
+                                            },
+                                            "value": "Online",
+                                            "display": true
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Extension of Deadline",
+                                                "code": "extension of deadline"
+                                            },
+                                            "value": "No",
+                                            "display": true
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "name": "Other Details",
+                                                "code": "other details"
+                                            },
+                                            "value": "N/A",
+                                            "display": true
+                                        }
+                                    ]
+                                }
+                            ],
+                            "xinput": {
+                                "required": true,
+                                "head": {
+                                    "descriptor": {
+                                        "name": "Application Form"
+                                    },
+                                    "index": {
+                                        "min": 0,
+                                        "cur": 0,
+                                        "max": 1
+                                    },
+                                    "headings": [
+                                        [
+                                            "Scholarship Application Form"
+                                        ]
+                                    ]
+                                },
+                                "form": {
+                                    "mime_type": "text/html",
+                                    "url": "https://d.buddy4.fin.dash.tibilprojects.com/job/form?org_id=1&transaction_id=eb020999-a9ae-44f7-9e97-a6db27202025&job_id=8&curr_page=0&context=onest:financial-support"
+                                }
+                            }
+                        }
+                    ],
+                    "type": "DEFAULT"
+                }
+            }
+        }
+    ]
+}
