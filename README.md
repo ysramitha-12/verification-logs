@@ -3,7 +3,7 @@ To submit logs for protocol compliance verification, following steps need to be 
 
 >1. Create a fork of the "verification-logs" repository
 
->2. Create a folder in this format([Organisation Name]-[BAP/BPP]-[ONEST Domain Name]  Ex: Org Name-BAP-Learning Experiences) under "logs" Folder
+>2. Create a folders in this format([Organisation Name]-[BAP/BPP]/[ONEST Domain Name]  Ex: Org Name-BAP/Learning Experiences, Refer to example folder) under "logs" Folder
 
 >3. Place your logs into this folder (logs should include request & response payloads for all enabled APIs)
 
