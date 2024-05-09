@@ -1,0 +1,152 @@
+{
+    "context": {
+        "ttl": "PT10M",
+        "action": "confirm",
+        "timestamp": "2024-05-09T09:22:58.001Z",
+        "message_id": "95d7f21a-5d9c-46e4-8c9b-169d4e4e7594",
+        "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+        "domain": "onest:learning-experiences",
+        "version": "1.1.0",
+        "bap_id": "le-ps-bap-network.onest.network",
+        "bap_uri": "https://le-ps-bap-network.onest.network",
+        "location": {
+            "city": {
+                "name": "Bangalore",
+                "code": "std:080"
+            },
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "bpp_id": "3b8c-182-73-165-66.ngrok-free.app",
+        "bpp_uri": "https://3b8c-182-73-165-66.ngrok-free.app"
+    },
+    "responses": [
+        {
+            "context": {
+                "domain": "onest:learning-experiences",
+                "action": "on_confirm",
+                "version": "1.1.0",
+                "bpp_id": "3b8c-182-73-165-66.ngrok-free.app",
+                "bpp_uri": "https://3b8c-182-73-165-66.ngrok-free.app",
+                "country": "IND",
+                "city": "std:080",
+                "bap_id": "le-ps-bap-network.onest.network",
+                "bap_uri": "https://le-ps-bap-network.onest.network",
+                "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+                "message_id": "95d7f21a-5d9c-46e4-8c9b-169d4e4e7594",
+                "ttl": "PT10M",
+                "timestamp": "2024-05-09T09:23:02.117Z"
+            },
+            "message": {
+                "order": {
+                    "provider": {
+                        "id": "agnirva",
+                        "descriptor": {
+                            "name": "Agnirva",
+                            "short_desc": "Agnirva is a diverse, global, community of minds and machines, united by the spirit of expanding the horizons of what we consider home, earth and nature. Earth is not a lonely planet. What we dream up for in space, what we do on earth and what we imagine together, impact our futures as well as our future generations. You could be anyone, a student, a content writer, an entrepreneur, an engineer, a designer. But, whenever space curiosity gets you, join into Agnirva community here and speak your mind."
+                        }
+                    },
+                    "items": [
+                        {
+                            "id": "1",
+                            "descriptor": {
+                                "name": "10th पास के बाद क्या सीखे?",
+                                "short_desc": "इस कोर्स में, आप कक्षा 10 पास करने के बाद विभिन्न सीखने के विकल्पों के बारे में जानेंगे। हम ITI, पॉलिटेक्निक और अन्य व्यावसायिक कौशलों जैसे विकल्पों पर चर्चा करेंगे। ये कौशल आपकी कमाई की संभावनाओं को समझने और बढ़ाने में मदद कर सकते हैं, कक्षा 10 पास करने के बाद।",
+                                "long_desc": "इस कोर्स में, आप कक्षा 10 पास करने के बाद विभिन्न सीखने के विकल्पों के बारे में जानेंगे। हम ITI, पॉलिटेक्निक और अन्य व्यावसायिक कौशलों जैसे विकल्पों पर चर्चा करेंगे। ये कौशल आपकी कमाई की संभावनाओं को समझने और बढ़ाने में मदद कर सकते हैं, कक्षा 10 पास करने के बाद।",
+                                "images": [
+                                    {
+                                        "url": "https://static.wixstatic.com/media/7c3283_fd76c439146a4076a83d2b2c56419ae6~mv2.jpg/v1/fit/w_2500,h_1330,al_c/7c3283_fd76c439146a4076a83d2b2c56419ae6~mv2.jpg"
+                                    }
+                                ],
+                                "media": [
+                                    {
+                                        "url": "https://www.agnirva.com/challenge-page/05b9cecd-e55a-4928-b595-e9f8e64ca439"
+                                    }
+                                ]
+                            },
+                            "fulfillment_ids": [
+                                "1"
+                            ],
+                            "price": {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "rating": "5",
+                            "rateable": true,
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "code": "lang-code",
+                                        "name": "Language code"
+                                    },
+                                    "value": "hi",
+                                    "display": true
+                                }
+                            ]
+                        }
+                    ],
+                    "fulfillments": [
+                        {
+                            "id": "1",
+                            "state": {
+                                "descriptor": {
+                                    "code": "1",
+                                    "name": "ONLINE"
+                                },
+                                "updated_at": "2024-05-09T09:23:02.113Z"
+                            },
+                            "customer": {
+                                "person": {
+                                    "name": "joe mama"
+                                },
+                                "contact": {
+                                    "phone": "+91-9663088848",
+                                    "email": "amoghwashere@example.com"
+                                }
+                            },
+                            "stops": [
+                                {
+                                    "id": "1",
+                                    "instructions": {
+                                        "name": "10th पास के बाद क्या सीखे?",
+                                        "long_desc": "इस कोर्स में, आप कक्षा 10 पास करने के बाद विभिन्न सीखने के विकल्पों के बारे में जानेंगे। हम ITI, पॉलिटेक्निक और अन्य व्यावसायिक कौशलों जैसे विकल्पों पर चर्चा करेंगे। ये कौशल आपकी कमाई की संभावनाओं को समझने और बढ़ाने में मदद कर सकते हैं, कक्षा 10 पास करने के बाद।",
+                                        "media": [
+                                            {
+                                                "mimetype": "text/uri-list",
+                                                "URL": "https://www.agnirva.com/challenge-page/05b9cecd-e55a-4928-b595-e9f8e64ca439"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "tracking": false
+                        }
+                    ],
+                    "quote": {
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    },
+                    "billing": {
+                        "name": "joe mama",
+                        "phone": "+91-9663088848",
+                        "email": "amoghwashere@example.com",
+                        "address": ""
+                    },
+                    "payments": [
+                        {
+                            "params": {
+                                "amount": "0",
+                                "currency": "INR"
+                            }
+                        }
+                    ],
+                    "type": "DEFAULT"
+                }
+            }
+        }
+    ]
+}
