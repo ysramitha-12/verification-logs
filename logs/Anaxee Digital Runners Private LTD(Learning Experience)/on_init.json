@@ -1,0 +1,128 @@
+{
+    "context": {
+        "domain": "{{onest_learning_experiences}}",
+        "action": "init",
+        "version": "1.1.0",
+        "bap_id": "suggestions-consult-harper-exercise.trycloudflare.com",
+        "bap_uri": "https://suggestions-consult-harper-exercise.trycloudflare.com",
+        "bpp_id": "b69d-2401-4900-61b3-d492-5931-2fa-c694-e0b0.ngrok-free.app",
+        "bpp_uri": "https://b69d-2401-4900-61b3-d492-5931-2fa-c694-e0b0.ngrok-free.app/",
+        "transaction_id": "c399310c-389a-4dca-9a2c-1a7e461f336e",
+        "message_id": "{{$randomUUID}}",
+        "timestamp": "2022-12-12T09:55:41.161Z",
+        "ttl": "PT10M"
+    },
+    "responses": [
+      {
+        "context": {
+          "domain": "onest:learning-experiences",
+          "action": "on_init",
+          "version": "1.1.0",
+          "bpp_id": "b69d-2401-4900-61b3-d492-5931-2fa-c694-e0b0.ngrok-free.app",
+          "bpp_uri": "https://b69d-2401-4900-61b3-d492-5931-2fa-c694-e0b0.ngrok-free.app",
+          "country": "IND",
+          "city": "std:080",
+          "bap_id": "affiliates-moderators-intersection-synthesis.trycloudflare.com",
+          "bap_uri": "https://affiliates-moderators-intersection-synthesis.trycloudflare.com",
+          "transaction_id": "7d526708-54f4-4ab4-875c-b8f36ded7721",
+          "message_id": "e2d0c002-e810-44ca-a6f0-afd93ffe6177",
+          "ttl": "PT10M",
+          "timestamp": "2024-05-14T09:12:17.005Z"
+        },
+        "message": {
+          "order": {
+            "provider": {
+              "id": "agnirva",
+              "descriptor": {
+                "name": "Agnirva",
+                "short_desc": "Agnirva is a diverse, global, community of minds and machines, united by the spirit of expanding the horizons of what we consider home, earth and nature. Earth is not a lonely planet. What we dream up for in space, what we do on earth and what we imagine together, impact our futures as well as our future generations. You could be anyone, a student, a content writer, an entrepreneur, an engineer, a designer. But, whenever space curiosity gets you, join into Agnirva community here and speak your mind."
+              }
+            },
+            "items": [
+              {
+                "id": "2",
+                "descriptor": {
+                  "name": "10th पास के बाद कौन सा नौकरी करे?",
+                  "short_desc": "इस कोर्स में, आपको कक्षा 10 पास करने के बाद विभिन्न नौकरी के विकल्पों के बारे में जानकारी मिलेगी। हम निजी और सरकारी क्षेत्रों में संभावित नौकरियों जैसे विकल्पों पर चर्चा करेंगे। यह जानकारी आपको समझने में मदद करेगी कि कक्षा 10 पास करने के बाद आपके लिए कौन-कौन से नौकरी के विकल्प मौजूद हैं।",
+                  "long_desc": "इस कोर्स में, आपको कक्षा 10 पास करने के बाद विभिन्न नौकरी के विकल्पों के बारे में जानकारी मिलेगी। हम निजी और सरकारी क्षेत्रों में संभावित नौकरियों जैसे विकल्पों पर चर्चा करेंगे। यह जानकारी आपको समझने में मदद करेगी कि कक्षा 10 पास करने के बाद आपके लिए कौन-कौन से नौकरी के विकल्प मौजूद हैं।",
+                  "images": [
+                    {
+                      "url": "https://static.wixstatic.com/media/7c3283_fd76c439146a4076a83d2b2c56419ae6~mv2.jpg/v1/fit/w_2500,h_1330,al_c/7c3283_fd76c439146a4076a83d2b2c56419ae6~mv2.jpg"
+                    }
+                  ],
+                  "media": [
+                    {
+                      "url": "https://www.agnirva.com/challenge-page/548d4e3d-8d9b-425a-a1f9-42bca1b4224a"
+                    }
+                  ]
+                },
+                "fulfillment_ids": [
+                  "2"
+                ],
+                "price": {
+                  "currency": "INR",
+                  "value": "0"
+                },
+                "rating": "5",
+                "rateable": true,
+                "tags": [
+                  {
+                    "descriptor": {
+                      "code": "lang-code",
+                      "name": "Language code"
+                    },
+                    "value": "hi",
+                    "display": true
+                  }
+                ]
+              }
+            ],
+            "fulfillments": [
+              {
+                "id": "2",
+                "state": {
+                  "descriptor": {
+                    "code": "1",
+                    "name": "ONLINE"
+                  },
+                  "updated_at": "2024-05-14T09:12:17.002Z"
+                },
+                "customer": {
+                  "person": {
+                    "name": "Ayush"
+                  },
+                  "contact": {
+                    "phone": "9898989898",
+                    "email": "ayush@gmail.com"
+                  }
+                },
+                "tracking": false
+              }
+            ],
+            "quote": {
+              "price": {
+                "currency": "INR",
+                "value": "0"
+              }
+            },
+            "billing": {
+              "name": "Ayush",
+              "phone": "9898989898",
+              "email": "ayush@gmail.com",
+              "address": ""
+            },
+            "payments": [
+              {
+                "params": {
+                  "amount": "0",
+                  "currency": "INR"
+                }
+              }
+            ],
+            "type": "DEFAULT"
+          }
+        }
+      }
+    ]
+  }
+  

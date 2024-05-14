@@ -1,0 +1,20 @@
+{
+    "context": {
+        "domain": "{{onest_learning_experiences}}",
+        "action": "search",
+        "version": "1.1.0",
+        "bap_id": "suggestions-consult-harper-exercise.trycloudflare.com",
+        "bap_uri": "https://suggestions-consult-harper-exercise.trycloudflare.com",
+        "transaction_id": "{{$randomUUID}}",
+        "message_id": "{{$randomUUID}}",
+        "ttl": "PT10M",
+        "timestamp": " 2024-05-10T12:05:53Z"
+    },
+    "message": {
+        "intent": {
+            "provider": {
+                "id": ""
+            }
+        }
+    }
+}
