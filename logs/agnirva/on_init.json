@@ -1,0 +1,137 @@
+{
+    "context": {
+        "ttl": "PT10M",
+        "action": "init",
+        "timestamp": "2024-05-09T09:21:39.745Z",
+        "message_id": "a26e9104-ac6e-412e-8bf2-88f26c089e1c",
+        "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+        "domain": "onest:learning-experiences",
+        "version": "1.1.0",
+        "bap_id": "le-ps-bap-network.onest.network",
+        "bap_uri": "https://le-ps-bap-network.onest.network",
+        "location": {
+            "city": {
+                "name": "Bangalore",
+                "code": "std:080"
+            },
+            "country": {
+                "name": "India",
+                "code": "IND"
+            }
+        },
+        "bpp_id": "3b8c-182-73-165-66.ngrok-free.app",
+        "bpp_uri": "https://3b8c-182-73-165-66.ngrok-free.app"
+    },
+    "responses": [
+        {
+            "context": {
+                "domain": "onest:learning-experiences",
+                "action": "on_init",
+                "version": "1.1.0",
+                "bpp_id": "3b8c-182-73-165-66.ngrok-free.app",
+                "bpp_uri": "https://3b8c-182-73-165-66.ngrok-free.app",
+                "country": "IND",
+                "city": "std:080",
+                "bap_id": "le-ps-bap-network.onest.network",
+                "bap_uri": "https://le-ps-bap-network.onest.network",
+                "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+                "message_id": "a26e9104-ac6e-412e-8bf2-88f26c089e1c",
+                "ttl": "PT10M",
+                "timestamp": "2024-05-09T09:21:44.402Z"
+            },
+            "message": {
+                "order": {
+                    "provider": {
+                        "id": "agnirva",
+                        "descriptor": {
+                            "name": "Agnirva",
+                            "short_desc": "Agnirva is a diverse, global, community of minds and machines, united by the spirit of expanding the horizons of what we consider home, earth and nature. Earth is not a lonely planet. What we dream up for in space, what we do on earth and what we imagine together, impact our futures as well as our future generations. You could be anyone, a student, a content writer, an entrepreneur, an engineer, a designer. But, whenever space curiosity gets you, join into Agnirva community here and speak your mind."
+                        }
+                    },
+                    "items": [
+                        {
+                            "id": "2",
+                            "descriptor": {
+                                "name": "10th पास के बाद कौन सा नौकरी करे?",
+                                "short_desc": "इस कोर्स में, आपको कक्षा 10 पास करने के बाद विभिन्न नौकरी के विकल्पों के बारे में जानकारी मिलेगी। हम निजी और सरकारी क्षेत्रों में संभावित नौकरियों जैसे विकल्पों पर चर्चा करेंगे। यह जानकारी आपको समझने में मदद करेगी कि कक्षा 10 पास करने के बाद आपके लिए कौन-कौन से नौकरी के विकल्प मौजूद हैं।",
+                                "long_desc": "इस कोर्स में, आपको कक्षा 10 पास करने के बाद विभिन्न नौकरी के विकल्पों के बारे में जानकारी मिलेगी। हम निजी और सरकारी क्षेत्रों में संभावित नौकरियों जैसे विकल्पों पर चर्चा करेंगे। यह जानकारी आपको समझने में मदद करेगी कि कक्षा 10 पास करने के बाद आपके लिए कौन-कौन से नौकरी के विकल्प मौजूद हैं।",
+                                "images": [
+                                    {
+                                        "url": "https://static.wixstatic.com/media/7c3283_fd76c439146a4076a83d2b2c56419ae6~mv2.jpg/v1/fit/w_2500,h_1330,al_c/7c3283_fd76c439146a4076a83d2b2c56419ae6~mv2.jpg"
+                                    }
+                                ],
+                                "media": [
+                                    {
+                                        "url": "https://www.agnirva.com/challenge-page/548d4e3d-8d9b-425a-a1f9-42bca1b4224a"
+                                    }
+                                ]
+                            },
+                            "fulfillment_ids": [
+                                "2"
+                            ],
+                            "price": {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "rating": "5",
+                            "rateable": true,
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "code": "lang-code",
+                                        "name": "Language code"
+                                    },
+                                    "value": "hi",
+                                    "display": true
+                                }
+                            ]
+                        }
+                    ],
+                    "fulfillments": [
+                        {
+                            "id": "2",
+                            "state": {
+                                "descriptor": {
+                                    "code": "1",
+                                    "name": "ONLINE"
+                                },
+                                "updated_at": "2024-05-09T09:21:44.397Z"
+                            },
+                            "customer": {
+                                "person": {
+                                    "name": "Jane Doe"
+                                },
+                                "contact": {
+                                    "phone": "+91-9663088848",
+                                    "email": "jane.doe@example.com"
+                                }
+                            },
+                            "tracking": false
+                        }
+                    ],
+                    "quote": {
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        }
+                    },
+                    "billing": {
+                        "name": "Jane Doe",
+                        "phone": "+91-9663088848",
+                        "email": "jane.doe@example.com",
+                        "address": ""
+                    },
+                    "payments": [
+                        {
+                            "params": {
+                                "amount": "0",
+                                "currency": "INR"
+                            }
+                        }
+                    ],
+                    "type": "DEFAULT"
+                }
+            }
+        }
+    ]
+}

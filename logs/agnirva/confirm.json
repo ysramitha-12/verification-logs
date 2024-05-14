@@ -1,0 +1,117 @@
+{
+  "context": {
+      "domain": "{{onest_learning_experiences}}",
+      "action": "confirm",
+      "version": "{{core_version}}",
+      "bap_id": "{{le_bap_id}}",
+      "bap_uri": "{{le_bap_uri}}",
+      "bpp_id": "3b8c-182-73-165-66.ngrok-free.app",
+      "bpp_uri": "https://3b8c-182-73-165-66.ngrok-free.app",
+      "location": {
+          "city": {
+              "name": "Bangalore",
+              "code": "std:080"
+          },
+          "country": {
+              "name": "India",
+              "code": "IND"
+          }
+      },
+      
+      "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+      "message_id": "{{$randomUUID}}",
+      "ttl": "PT10M",
+      "timestamp": "2024-05-08T16:45:24.161Z"
+  },
+  "message": {
+  "order": {
+    "provider": {
+      "id": "Agnirva"
+    },
+    "items": [
+      {
+        "id": "1"
+      }
+    ],
+    "billing": {
+      "name": "Jane Doe",
+      "phone": "+91-9663088848",
+      "email": "jane.doe@example.com",
+      "address": "No 27, XYZ Lane, etc"
+    },
+    "fulfillments": [
+      {
+        "customer": {
+          "person": {
+            "name": "joe mama",
+            "age": "13",
+            "gender": "female"
+          },
+          "contact": {
+            "phone": "+91-9663088848",
+            "email": "amoghwashere@example.com"
+          }
+        },
+        "tags": [
+          {
+            "code": "distributor-details",
+            "list": [
+              {
+                "descriptor": {
+                  "code": "distributor-id",
+                  "name": "Distributor Id"
+                },
+                "value": "PNB"
+              },
+              {
+                "descriptor": {
+                  "code": "distributor-name",
+                  "name": "Distributor Name"
+                },
+                "value": "Pay Near By"
+              },
+              {
+                "descriptor": {
+                  "code": "distributor-phone",
+                  "name": "Distributor Phone"
+                },
+                "value": "9123456789"
+              },
+              {
+                "descriptor": {
+                  "code": "distributor-email",
+                  "name": "Distributor Email"
+                },
+                "value": "support@pnb.com"
+              },
+              {
+                "descriptor": {
+                  "code": "agent-id",
+                  "name": "Agent Id"
+                },
+                "value": "agent-123"
+              },
+              {
+                "descriptor": {
+                  "code": "agent-verified",
+                  "name": "Agent verified"
+                },
+                "value": "true"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "params": {
+          "amount": "150",
+          "currency": "INR"
+        },
+        "status": "PAID"
+      }
+    ]
+  }
+}
+}
