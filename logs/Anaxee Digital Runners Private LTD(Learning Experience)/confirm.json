@@ -14,30 +14,31 @@
   },
   "message": {
     "order": {
-      "fulfillments": [
-        {
-          "customer": {
-            "contact": {
-              "email": "ayush@gmail.com",
-              "phone": "9898989898"
-            },
-            "person": {
-              "gender": "Male",
-              "name": "Ayush",
-              "tags": []
-            }
-          }
-        }
-      ],
+      
+      "provider": {
+        "id": "agnirva"
+      },
       "items": [
         {
           "fulfillment_ids": ["1"],
           "id": "2"
         }
       ],
-      "provider": {
-        "id": "agnirva"
-      }
+      "fulfillments": [
+        {
+          "id": "2",
+          "customer": {
+            "contact": {
+              "email": "ayush@gmail.com",
+              "phone": "9898989898"
+            },
+            "person": {
+              "name": "Ayush",
+              "tags": []
+            }
+          }
+        }
+      ],
     }
   }
 }
