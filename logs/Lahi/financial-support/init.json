@@ -1,0 +1,170 @@
+{
+    "context": {
+        "domain": "onest:financial-support",
+        "action": "init",
+        "version": "1.1.0",
+        "bap_id": "lahi-scholarship-dev-bap-network.tekdinext.com",
+        "bap_uri": "https://lahi-scholarship-dev-bap-network.tekdinext.com",
+        "bpp_id": "d.tibil.scholarship.dash.tibilprojects.com",
+        "bpp_uri": "https://d.tibil.scholarship.dash.tibilprojects.com/protocol-network",
+        "transaction_id": "619ea787-6d74-4c5e-943d-68aeeeed41d0",
+        "message_id": "1a7e1a6e-71ec-4353-9f98-06e81f2e75b5",
+        "timestamp": "2024-05-23T13:45:42.557Z"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "1",
+                "descriptor": {
+                    "name": "buddy4"
+                }
+            },
+            "items": [
+                {
+                    "id": "1",
+                    "descriptor": {
+                        "name": "HDFC Bank Parivartan's ECSS Programme for School Students (Merit-cum-Need Based) 2023-24",
+                        "long_desc": "The HDFC Bank Parivartan's ECSS Programme offers financial aid up to ₹75,000 to underprivileged students in India facing financial difficulties. It covers school students pursuing their studies in Class 1 to 12 and those pursuing vocational training or higher education (Diploma, ITI, Polytechnic, Undergraduate and Postgraduate Studies).",
+                        "additional_desc": {
+                            "opportunity_type": "Merit-cum-Means Scholarship"
+                        }
+                    },
+                    "creator": {
+                        "descriptor": {
+                            "name": "HDFC Bank"
+                        }
+                    },
+                    "price": {
+                        "currency": "INR",
+                        "value": "For Class 1 to 6 - ₹15,000 \n\nFor Class 7 to 12, Diploma, ITI, & Polytechnic students - ₹18,000"
+                    },
+                    "time": {
+                        "range": {
+                            "start": "2024-03-20T13:23:01+00:00",
+                            "end": "2024-01-21T13:23:01+00:00"
+                        }
+                    },
+                    "rateable": true,
+                    "tags": [
+                        {
+                            "display": true,
+                            "descriptor": {
+                                "code": "academic-eligibility",
+                                "name": "Academic-Eligibility"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "name": "Course",
+                                        "code": "course"
+                                    },
+                                    "value": "Class 1 to 12, diploma, ITI, and polytechnic",
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Min-Eligibility",
+                                        "code": "min-eligibility"
+                                    },
+                                    "value": "Indian nationals\n\nStudents in Classes 1 to 12, diploma, ITI, and polytechnic courses in private, government, or government-aided schools\n\nApplicants must have secured at least 55% marks in the previous qualifying examination.",
+                                    "display": true
+                                }
+                            ]
+                        },
+                        {
+                            "display": true,
+                            "descriptor": {
+                                "code": "background-eligibility",
+                                "name": "Background-Eligibility"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "name": "Social-Eligibility",
+                                        "code": "social-eligibility"
+                                    },
+                                    "value": "-",
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Gender-Eligibility",
+                                        "code": "gender-eligibility"
+                                    },
+                                    "value": "For All",
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Annual Income",
+                                        "code": "annual-income"
+                                    },
+                                    "value": "Less than or equal to ₹2,50,000",
+                                    "display": true
+                                }
+                            ]
+                        },
+                        {
+                            "display": true,
+                            "descriptor": {
+                                "code": "additional-info",
+                                "name": "Additional-Info"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "name": "Buddy4-Url",
+                                        "code": "buddy4-url"
+                                    },
+                                    "value": "https://www.buddy4study.com/page/hdfc-bank-parivartans-ecss-programme",
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Source-Url",
+                                        "code": "source-url"
+                                    },
+                                    "value": "https://www.buddy4study.com/page/hdfc-bank-parivartans-ecss-programme",
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Document-Url",
+                                        "code": "document-url"
+                                    },
+                                    "value": "N/A",
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Application-Mode",
+                                        "code": "application-mode"
+                                    },
+                                    "value": "Online",
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Extension of Deadline",
+                                        "code": "extension of deadline"
+                                    },
+                                    "value": "No",
+                                    "display": true
+                                },
+                                {
+                                    "descriptor": {
+                                        "name": "Other Details",
+                                        "code": "other details"
+                                    },
+                                    "value": "Priority will be given to applicants who have experienced a personal or family crisis in past three years, causing financial hardship that has threatened their ability to pursue education further.",
+                                    "display": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "DEFAULT"
+        }
+    }
+}
