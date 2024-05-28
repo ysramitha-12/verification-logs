@@ -1,0 +1,287 @@
+{
+    "context": {
+        "ttl": "PT10M",
+        "action": "select",
+        "timestamp": "2024-05-28T09:53:25.262Z",
+        "message_id": "87ae43c5-1e13-4f74-ae77-330ad58e4480",
+        "transaction_id": "6dd83538-7f71-4fd3-89a3-8cde460dd9af",
+        "domain": "onest:learning-experiences",
+        "version": "1.1.0",
+        "bap_id": "lahi-content-dev-bap-network.tekdinext.com",
+        "bap_uri": "https://lahi-content-dev-bap-network.tekdinext.com",
+        "bpp_id": "kahani-bpp.tekdinext.com",
+        "bpp_uri": "https://kahani-bpp.tekdinext.com/"
+    },
+    "responses": [
+        {
+            "context": {
+                "domain": "onest:learning-experiences",
+                "action": "on_select",
+                "version": "1.1.0",
+                "bpp_id": "kahani-bpp.tekdinext.com",
+                "bpp_uri": "https://kahani-bpp.tekdinext.com/",
+                "country": "IND",
+                "city": "std:080",
+                "bap_id": "lahi-content-dev-bap-network.tekdinext.com",
+                "bap_uri": "https://lahi-content-dev-bap-network.tekdinext.com",
+                "transaction_id": "6dd83538-7f71-4fd3-89a3-8cde460dd9af",
+                "message_id": "87ae43c5-1e13-4f74-ae77-330ad58e4480",
+                "ttl": "PT10M",
+                "timestamp": "2024-05-28T09:53:32.610Z"
+            },
+            "message": {
+                "order": {
+                    "provider": {
+                        "id": "142",
+                        "descriptor": {
+                            "name": "Vowel",
+                            "short_desc": "These courses are provided by vowel",
+                            "images": [
+                                {
+                                    "url": "https://onest-bucket.s3.ap-south-1.amazonaws.com/tekdi_log01716195468125.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA6EXR534WCJSR7T75%2F20240528%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20240528T095330Z&X-Amz-Expires=36000&X-Amz-Signature=3fca3555d5559dbdf53bcd7a21278be378bc8c175f7f112a38c28f4f837a6c4d&X-Amz-SignedHeaders=host&x-id=GetObject"
+                                }
+                            ]
+                        },
+                        "categories": [
+                            {
+                                "id": "1",
+                                "descriptor": {
+                                    "code": "course",
+                                    "name": "Course"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "descriptor": {
+                                    "code": "others",
+                                    "name": "Others"
+                                }
+                            }
+                        ],
+                        "fulfillments": [
+                            {
+                                "id": "1",
+                                "type": "ONLINE",
+                                "tracking": false
+                            },
+                            {
+                                "id": "2",
+                                "type": "IN-PERSON",
+                                "tracking": false
+                            },
+                            {
+                                "id": "3",
+                                "type": "HYBRID",
+                                "tracking": false
+                            }
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "342",
+                            "quantity": {
+                                "maximum": {
+                                    "count": 1
+                                }
+                            },
+                            "parent_item_id": "342",
+                            "descriptor": {
+                                "name": "ग्राहकों के साथ बातचीत - बेचना और समझाना",
+                                "short_desc": "यह पाठ्यक्रम बिक्री पेशेवरों को ग्राहकों के साथ सफलतापूर्वक बातचीत करने के लिए आवश्यक कौशल और रणनीतियों से लैस करने के लिए डिज़ाइन किया गया है। सैद्धांतिक अवधारणाओं, व्यावहारिक अभ्यासों और वास्तविक दुनिया के उदाहरणों के संयोजन के माध्यम से, प्रतिभागी सीखेंगे कि कैसे संबंध बनाया जाए, ग्राहकों की जरूरतों को उजागर किया जाए और ग्राहकों को खरीदारी संबंधी निर्णय लेने के लिए प्रभावी ढंग से राजी किया जाए।\n\nThis course is designed to equip sales professionals with the essential skills and strategies needed to navigate negotiations with customers successfully. Through a combination of theoretical concepts, practical exercises, and real-world examples, participants will learn how to build rapport, uncover customer needs, and effectively persuade and convince customers to make purchasing decisions.",
+                                "long_desc": "यह पाठ्यक्रम बिक्री पेशेवरों को ग्राहकों के साथ सफलतापूर्वक बातचीत करने के लिए आवश्यक कौशल और रणनीतियों से लैस करने के लिए डिज़ाइन किया गया है। सैद्धांतिक अवधारणाओं, व्यावहारिक अभ्यासों और वास्तविक दुनिया के उदाहरणों के संयोजन के माध्यम से, प्रतिभागी सीखेंगे कि कैसे संबंध बनाया जाए, ग्राहकों की जरूरतों को उजागर किया जाए और ग्राहकों को खरीदारी संबंधी निर्णय लेने के लिए प्रभावी ढंग से राजी किया जाए।\n\nThis course is designed to equip sales professionals with the essential skills and strategies needed to navigate negotiations with customers successfully. Through a combination of theoretical concepts, practical exercises, and real-world examples, participants will learn how to build rapport, uncover customer needs, and effectively persuade and convince customers to make purchasing decisions.",
+                                "images": [],
+                                "media": []
+                            },
+                            "creator": {
+                                "descriptor": {
+                                    "name": "Vowel"
+                                }
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "0"
+                            },
+                            "category_ids": [],
+                            "fulfillment_ids": [],
+                            "rating": "NaN",
+                            "rateable": true,
+                            "add-ons": [
+                                {
+                                    "descriptor": {
+                                        "media": [
+                                            {
+                                                "mimetype": "",
+                                                "url": "https://trial.vowel.work/Onestcontent/course-library/negotiation-with-customers-selling-and-convincing"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "tags": [
+                                {
+                                    "display": true,
+                                    "descriptor": {
+                                        "name": "course Info",
+                                        "code": "courseInfo"
+                                    },
+                                    "list": [
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "sourceOrganisation",
+                                                "name": "Source Organisation"
+                                            },
+                                            "value": "sourceOrganisation"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "urlType",
+                                                "name": "Url Type"
+                                            },
+                                            "value": "BPP-REMOTE-PLAYER"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "competency",
+                                                "name": "Competency"
+                                            },
+                                            "value": "competency"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "contentType",
+                                                "name": "Content Type"
+                                            },
+                                            "value": "Video"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "domain",
+                                                "name": "Domain"
+                                            },
+                                            "value": "Soft skills"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "curriculargoal",
+                                                "name": "Curricular Goal"
+                                            },
+                                            "value": "curriculargoal"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "language",
+                                                "name": "Language"
+                                            },
+                                            "value": "Hindi"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "themes",
+                                                "name": "Themes"
+                                            },
+                                            "value": "themes"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "minAge",
+                                                "name": "minAge"
+                                            },
+                                            "value": "10"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "maxAge",
+                                                "name": "maxAge"
+                                            },
+                                            "value": "null"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "author",
+                                                "name": "author"
+                                            },
+                                            "value": "Vowel"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "curricularGoals",
+                                                "name": "curricularGoals"
+                                            },
+                                            "value": "curricularGoals"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "learningOutcomes",
+                                                "name": "learningOutcomes"
+                                            },
+                                            "value": "learningOutcomes"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "persona",
+                                                "name": "persona"
+                                            },
+                                            "value": "Learner"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "license",
+                                                "name": "license"
+                                            },
+                                            "value": "Youtube"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "createdon",
+                                                "name": "createdon"
+                                            },
+                                            "value": "2024-05-10T07:19:43.264806+00:00"
+                                        },
+                                        {
+                                            "display": true,
+                                            "descriptor": {
+                                                "code": "lastupdatedon",
+                                                "name": "lastupdatedon"
+                                            },
+                                            "value": "2024-05-10T07:19:43.264806+00:00"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fulfillments": [
+                        {
+                            "agent": {
+                                "person": {
+                                    "name": ""
+                                },
+                                "contact": {
+                                    "email": ""
+                                }
+                            },
+                            "tracking": false
+                        }
+                    ],
+                    "type": "DEFAULT"
+                }
+            }
+        }
+    ]
+}
