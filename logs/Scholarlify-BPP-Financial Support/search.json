@@ -1,0 +1,22 @@
+{
+  "context": {
+    "ttl": "PT10M",
+    "action": "search",
+    "timestamp": "2024-05-28T11:00:47.934Z",
+    "message_id": "4153a63e-0cad-4a44-8221-dd497f2c6bac",
+    "transaction_id": "27285fe1-dd36-4f4d-9971-7c41831d0682",
+    "domain": "onest:financial-support",
+    "version": "1.1.0",
+    "bap_id": "fs-ps-bap-network.onest.network",
+    "bap_uri": "https://fs-ps-bap-network.onest.network"
+  },
+  "message": {
+    "intent": {
+      "item": {
+        "descriptor": {
+          "name": "scholarship for undergraduate"
+        }
+      }
+    }
+  }
+}

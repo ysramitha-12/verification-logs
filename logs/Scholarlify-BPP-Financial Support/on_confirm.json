@@ -1,0 +1,149 @@
+{
+  "context": {
+    "ttl": "PT10M",
+    "BPP_ID": "onest-dev.scholarlify.com",
+    "action": "on_confirm",
+    "bap_id": "fs-ps-bap-network.onest.network",
+    "domain": "onest:financial-support",
+    "BPP_URI": "https://onest-dev.scholarlify.com",
+    "bap_uri": "https://fs-ps-bap-network.onest.network",
+    "version": "1.1.0",
+    "timestamp": "2024-05-28T11:02:11.522Z",
+    "message_id": "eb138a3d-fe08-4173-a3ab-bc0dff39692c",
+    "transaction_id": "27285fe1-dd36-4f4d-9971-7c41831d0682"
+  },
+  "message": {
+    "order": {
+      "items": [
+        {
+          "id": "INSP24",
+          "tags": [
+            {
+              "list": [
+                {
+                  "value": "Graduation",
+                  "display": true,
+                  "descriptor": {
+                    "code": "course-name",
+                    "name": "Name of the course"
+                  }
+                },
+                {
+                  "value": "Post Graduation",
+                  "display": true,
+                  "descriptor": {
+                    "code": "course-name",
+                    "name": "Name of the course"
+                  }
+                }
+              ],
+              "display": true,
+              "descriptor": {
+                "code": "academic-eligibility",
+                "name": "Academic Eligibility"
+              }
+            }
+          ],
+          "time": {
+            "range": {
+              "end": "2024-12-20T23:59:59+05:30",
+              "start": "2023-12-20T00:00:00+05:30"
+            }
+          },
+          "price": {
+            "value": "6th to 10th INR 2000 for one year | 11 to 12 INR 3000 for one year",
+            "currency": "INR"
+          },
+          "rateable": false,
+          "descriptor": {
+            "name": "Inspire Scholars Program",
+            "images": [
+              {
+                "url": "https://dev.scholarlify.com/api/public/scholarship_image/INSP24/small_image"
+              },
+              {
+                "url": "https://dev.scholarlify.com/api/public/scholarship_image/INSP24/image"
+              }
+            ],
+            "long_desc": "Inspire Scholars Program is an initiative of EFL Education Research Pvt Ltd that aims to provide financial assistance to meritorious students to pursue engineering and post graduate courses. Under this scholarship program students pursuing studies in any year of engineering and post-graduation  programs in streams will be awarded with a scholarship amount of 15,000 to cover their academic expenses."
+          },
+          "fulfillment_ids": [
+            "SCH_FUL_1"
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "value": "6th to 10th INR 2000 for one year | 11 to 12 INR 3000 for one year",
+          "currency": "INR"
+        }
+      },
+      "billing": {
+        "name": "Manjunath",
+        "phone": "+91-9999999999",
+        "address": "No 27, XYZ Lane, etc",
+        "organization": {
+          "contact": {
+            "email": "scholarships@nammayatri.in",
+            "phone": "+91-8888888888"
+          },
+          "descriptor": {
+            "code": "nammayatri.in",
+            "name": "Namma Yatri"
+          }
+        }
+      },
+      "payments": [
+        {
+          "params": {
+            "bank_code": "IFSC_Code_Of_the_bank",
+            "bank_account_name": "Account Holder Name",
+            "bank_account_number": "121212121212"
+          }
+        }
+      ],
+      "provider": {
+        "id": "SCH",
+        "rateable": false,
+        "descriptor": {
+          "name": "Scholarlify",
+          "short_desc": "Scholarlify"
+        }
+      },
+      "fullfillments": [
+        {
+          "id": "SCH_FUL_1",
+          "agent": {
+            "person": {
+              "name": "Ekstep Foundation SPoc"
+            },
+            "contact": {
+              "email": "ekstepsupport@ekstep.com"
+            }
+          },
+          "state": {
+            "descriptor": {
+              "code": "APPLICATION-STARTED",
+              "name": "Application started"
+            },
+            "updated_at": "2024-05-28T11:01:10.292Z"
+          },
+          "customer": {
+            "id": "aadhaar:798677675565",
+            "person": {
+              "age": "17",
+              "name": "Jane Doe",
+              "gender": "female"
+            },
+            "contact": {
+              "email": "jane.doe@example.com",
+              "phone": "+91-9663088848"
+            }
+          },
+          "tracking": false
+        }
+      ],
+      "id": "INSP24000203"
+    }
+  }
+}
