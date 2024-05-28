@@ -1,0 +1,101 @@
+{
+  "context": {
+    "action": "on_select",
+    "timestamp": "2024-05-28T08:42:14.481Z",
+    "bap_id": "fs-ps-bap-network.onest.network",
+    "bap_uri": "https://fs-ps-bap-network.onest.network",
+    "BPP_ID": "onest-dev.scholarlify.com",
+    "BPP_URI": "https://onest-dev.scholarlify.com",
+    "transaction_id": "41bcfd01-da1c-4c4d-b39e-4418779aea80",
+    "message_id": "baf6dfe7-d31e-41a5-a737-5d00409f51b9",
+    "domain": "onest:financial-support",
+    "ttl": "PT10M",
+    "version": "1.1.0"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "SCH",
+        "rateable": false,
+        "descriptor": {
+          "name": "Scholarlify",
+          "short_desc": "Scholarlify"
+        }
+      },
+      "items": [
+        {
+          "id": "INSP24",
+          "descriptor": {
+            "name": "Inspire Scholars Program",
+            "long_desc": "Inspire Scholars Program is an initiative of EFL Education Research Pvt Ltd that aims to provide financial assistance to meritorious students to pursue engineering and post graduate courses. Under this scholarship program students pursuing studies in any year of engineering and post-graduation  programs in streams will be awarded with a scholarship amount of 15,000 to cover their academic expenses.",
+            "images": [
+              {
+                "url": "https://dev.scholarlify.com/api/public/scholarship_image/INSP24/small_image"
+              },
+              {
+                "url": "https://dev.scholarlify.com/api/public/scholarship_image/INSP24/image"
+              }
+            ]
+          },
+          "price": {
+            "currency": "INR",
+            "value": "6th to 10th INR 2000 for one year | 11 to 12 INR 3000 for one year"
+          },
+          "time": {
+            "range": {
+              "start": "2023-12-20T00:00:00+05:30",
+              "end": "2024-12-20T23:59:59+05:30"
+            }
+          },
+          "rateable": false,
+          "tags": [
+            {
+              "display": true,
+              "descriptor": {
+                "code": "academic-eligibility",
+                "name": "Academic Eligibility"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "course-name",
+                    "name": "Name of the course"
+                  },
+                  "value": "Graduation",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "code": "course-name",
+                    "name": "Name of the course"
+                  },
+                  "value": "Post Graduation",
+                  "display": true
+                }
+              ]
+            }
+          ],
+          "category_ids": [
+            "796",
+            "797"
+          ],
+          "fulfillment_ids": [
+            "SCH_FUL_1"
+          ]
+        }
+      ],
+      "fulfillments": [
+        {
+          "id": "SCH_FUL_1",
+          "tracking": false
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "6th to 10th INR 2000 for one year | 11 to 12 INR 3000 for one year"
+        }
+      }
+    }
+  }
+}
