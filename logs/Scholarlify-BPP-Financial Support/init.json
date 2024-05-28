@@ -2,9 +2,9 @@
   "context": {
     "ttl": "PT10M",
     "action": "init",
-    "timestamp": "2024-05-28T08:42:15.551Z",
-    "message_id": "08928767-14ce-4ab9-b03d-ef09c31ef119",
-    "transaction_id": "41bcfd01-da1c-4c4d-b39e-4418779aea80",
+    "timestamp": "2024-05-28T11:01:09.726Z",
+    "message_id": "eb138a3d-fe08-4173-a3ab-bc0dff39692c",
+    "transaction_id": "27285fe1-dd36-4f4d-9971-7c41831d0682",
     "domain": "onest:financial-support",
     "version": "1.1.0",
     "bap_id": "fs-ps-bap-network.onest.network",

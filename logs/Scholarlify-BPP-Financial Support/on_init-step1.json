@@ -2,13 +2,13 @@
   "context": {
     "domain": "onest:financial-support",
     "action": "on_init",
-    "timestamp": "2024-05-28T08:42:16.262Z",
+    "timestamp": "2024-05-28T11:01:10.292Z",
     "bap_id": "fs-ps-bap-network.onest.network",
     "bap_uri": "https://fs-ps-bap-network.onest.network",
     "BPP_ID": "onest-dev.scholarlify.com",
     "BPP_URI": "https://onest-dev.scholarlify.com",
-    "transaction_id": "41bcfd01-da1c-4c4d-b39e-4418779aea80",
-    "message_id": "08928767-14ce-4ab9-b03d-ef09c31ef119",
+    "transaction_id": "27285fe1-dd36-4f4d-9971-7c41831d0682",
+    "message_id": "eb138a3d-fe08-4173-a3ab-bc0dff39692c",
     "ttl": "PT10M",
     "version": "1.1.0"
   },
@@ -90,13 +90,12 @@
                 "max": 0
               },
               "headings": [
-                "Application Details",
-                "Review & Submit"
+                "Application Details"
               ]
             },
             "form": {
               "mime_type": "text/html",
-              "url": "https://onest-dev.scholarlify.com/api/html/form1.html?t=41bcfd01-da1c-4c4d-b39e-4418779aea80",
+              "url": "https://onest-dev.scholarlify.com/api/html/form1.html?t=27285fe1-dd36-4f4d-9971-7c41831d0682",
               "resubmit": false,
               "auth": {
                 "descriptor": {
@@ -115,7 +114,7 @@
               "code": "APPLICATION-STARTED",
               "name": "Application started"
             },
-            "updated_at": "2024-05-28T08:42:16.262Z"
+            "updated_at": "2024-05-28T11:01:10.292Z"
           },
           "id": "SCH_FUL_1",
           "tracking": false,
