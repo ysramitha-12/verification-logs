@@ -1,0 +1,26 @@
+{
+    "context": {
+        "domain": "onest:learning-experiences",
+        "action": "select",
+        "version": "1.1.0",
+        "bap_id": "lahi-content-dev-bap-network.tekdinext.com",
+        "bap_uri": "https://lahi-content-dev-bap-network.tekdinext.com",
+        "bpp_id": "kahani-bpp.tekdinext.com",
+        "bpp_uri": "https://kahani-bpp.tekdinext.com/",
+        "transaction_id": "6dd83538-7f71-4fd3-89a3-8cde460dd9af",
+        "message_id": "87ae43c5-1e13-4f74-ae77-330ad58e4480",
+        "timestamp": "2024-05-28T09:53:25.055Z"
+    },
+    "message": {
+        "order": {
+            "provider": {
+                "id": "142"
+            },
+            "items": [
+                {
+                    "id": "342"
+                }
+            ]
+        }
+    }
+}
