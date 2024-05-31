@@ -1,16 +1,16 @@
 {
   "context": {
     "ttl": "PT10M",
-    "BPP_ID": "onest-dev.scholarlify.com",
+    "BPP_ID": "onest.scholarlify.com",
     "action": "on_init",
     "bap_id": "fs-ps-bap-network.onest.network",
     "domain": "onest:financial-support",
-    "BPP_URI": "https://onest-dev.scholarlify.com",
+    "BPP_URI": "https://onest.scholarlify.com",
     "bap_uri": "https://fs-ps-bap-network.onest.network",
     "version": "1.1.0",
-    "timestamp": "2024-05-28T11:01:55.200Z",
-    "message_id": "eb138a3d-fe08-4173-a3ab-bc0dff39692c",
-    "transaction_id": "27285fe1-dd36-4f4d-9971-7c41831d0682"
+    "timestamp": "2024-05-31T14:46:41.710Z",
+    "message_id": "51ac5726-5183-4f2e-bd07-80fa88da1210",
+    "transaction_id": "d63b9b8f-432b-4ef9-baab-1f4af4e7a06c"
   },
   "message": {
     "order": {
@@ -51,18 +51,19 @@
             }
           },
           "price": {
-            "value": "6th to 10th INR 2000 for one year | 11 to 12 INR 3000 for one year",
-            "currency": "INR"
+            "currency": "INR",
+            "maximum_value": "5000",
+            "minimum_value": "1000"
           },
           "rateable": false,
           "descriptor": {
             "name": "Inspire Scholars Program",
             "images": [
               {
-                "url": "https://dev.scholarlify.com/api/public/scholarship_image/INSP24/small_image"
+                "url": "https://admin.scholarlify.com/api/public/scholarship_image/INSP24/small_image"
               },
               {
-                "url": "https://dev.scholarlify.com/api/public/scholarship_image/INSP24/image"
+                "url": "https://admin.scholarlify.com/api/public/scholarship_image/INSP24/image"
               }
             ],
             "long_desc": "Inspire Scholars Program is an initiative of EFL Education Research Pvt Ltd that aims to provide financial assistance to meritorious students to pursue engineering and post graduate courses. Under this scholarship program students pursuing studies in any year of engineering and post-graduation  programs in streams will be awarded with a scholarship amount of 15,000 to cover their academic expenses."
@@ -74,8 +75,9 @@
       ],
       "quote": {
         "price": {
-          "value": "6th to 10th INR 2000 for one year | 11 to 12 INR 3000 for one year",
-          "currency": "INR"
+          "currency": "INR",
+          "maximum_value": "5000",
+          "minimum_value": "1000"
         }
       },
       "billing": {
@@ -126,7 +128,7 @@
               "code": "APPLICATION-STARTED",
               "name": "Application started"
             },
-            "updated_at": "2024-05-28T11:01:10.292Z"
+            "updated_at": "2024-05-31T14:35:12.533Z"
           },
           "customer": {
             "id": "aadhaar:798677675565",
