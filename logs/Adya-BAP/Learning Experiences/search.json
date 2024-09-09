@@ -1,0 +1,22 @@
+{
+    "context": {
+        "action": "search",
+        "bap_id": "onest-bap.skillsetu.co",
+        "bap_uri": "https://onest-bap.skillsetu.co/api/v1/onest_ondc/bap",
+        "domain": "onest:learning-experiences",
+        "message_id": "b40f07ca-2018-42ac-967d-d1680e6b3088",
+        "timestamp": "2024-08-29T07:16:46.379Z",
+        "transaction_id": "94098aa9-60c5-4ff5-83c0-2ed87e5fc4da",
+        "ttl": "PT10M",
+        "version": "1.1.0"
+    },
+    "message": {
+        "intent": {
+            "item": {
+                "descriptor": {
+                    "name": "management"
+                }
+            }
+        }
+    }
+}

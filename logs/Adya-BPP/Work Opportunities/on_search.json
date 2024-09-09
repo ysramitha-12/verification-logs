@@ -1,0 +1,265 @@
+{
+    "context": {
+        "action": "on_search",
+        "bap_id": "onest-jobs-bap.skillsetu.co",
+        "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
+        "bpp_id": "onest-jobs.skillsetu.co",
+        "bpp_uri": "https://onest-jobs.skillsetu.co/api/v1/onest_ondc/bpp",
+        "domain": "onest:work-opportunities",
+        "message_id": "bbd7af01-ae94-4eb6-b64b-01b023294b5d",
+        "timestamp": "2024-08-29T08:23:19.969Z",
+        "transaction_id": "569544fa-1c3e-4f7d-927f-cfa5c1843856",
+        "ttl": "P1M",
+        "version": "1.1.0"
+    },
+    "message": {
+        "catalog": {
+            "descriptor": {
+                "name": "Jobs Search List"
+            },
+            "providers": [
+                {
+                    "descriptor": {
+                        "images": [
+                            {
+                                "size_type": "sm",
+                                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/unnamed.png-471d559f-0a88-44d9-bd5e-66bba2f7c840.png"
+                            }
+                        ],
+                        "name": "Adya",
+                        "short_desc": "Adya providing jobs through skills setu"
+                    },
+                    "fulfillments": [
+                        {
+                            "id": "F1",
+                            "type": "REMOTE"
+                        }
+                    ],
+                    "id": "B4KQ8OIJ",
+                    "items": [
+                        {
+                            "descriptor": {
+                                "long_desc": "We are seeking an experienced and dynamic Product Manager to join our team",
+                                "media": [
+                                    {
+                                        "mimetype": "video/mp4",
+                                        "url": "https://www.youtube.com/watch?v=yUOC-Y0f5ZQ"
+                                    }
+                             ],
+                                "name": "Product Manager"
+                            },
+                            "fulfillment_ids": [
+                                "F1"
+                            ],
+                            "id": "984R7I7S",
+                            "location_ids": [
+                                "L1"
+                            ],
+                            "quantity": {
+                                "available": {
+                                    "count": 10
+                                }
+                            },
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "code": "academic-eligibility",
+                                        "name": "Academic Eligibility"
+                                    },
+                                    "display": true,
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "course-name",
+                                                "name": "Course Name"
+                                            },
+                                            "display": true,
+                                            "value": "B tech"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "min-percentage",
+                                                "name": "Minimum Percentage"
+                                            },
+                                            "display": true,
+                                            "value": "60"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "mandatory-eligibility",
+                                                "name": "Mandatory Eligibility"
+                                            },
+                                            "display": true,
+                                            "value": "true"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "course-status",
+                                                "name": "Course Status"
+                                            },
+                                            "display": true,
+                                            "value": "completed"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "course-specialisation",
+                                                "name": "Course Specialisation"
+                                            },
+                                            "display": true,
+                                            "value": "Engineering in any stream"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "course-level",
+                                                "name": "Course Level"
+                                            },
+                                            "display": true,
+                                            "value": "bachelor"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "job-requirements",
+                                        "name": "Job Requirements"
+                                    },
+                                    "display": true,
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "req-experience",
+                                                "name": "Required Work Experience in Years"
+                                            },
+                                            "display": true,
+                                            "value": "3"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "req-prof-skills",
+                                                "name": "Required Professional Skills"
+                                            },
+                                            "display": true,
+                                            "value": "Market Research and Analysis"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "req-prof-skills",
+                                                "name": "Required Professional Skills"
+                                            },
+                                            "display": true,
+                                            "value": "Communication and Collaboration"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "job-responsibilities",
+                                        "name": "Job Responsibilities"
+                                    },
+                                    "display": true,
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "responsibility",
+                                                "name": "Responsibility"
+                                            },
+                                            "display": true,
+                                            "value": "Roadmap Planning"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "responsibility",
+                                                "name": "Responsibility"
+                                            },
+                                            "display": true,
+                                            "value": "Product Strategy and Vision"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "listing-details",
+                                        "name": "Listing Details"
+                                    },
+                                    "display": true,
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "industry-type",
+                                                "name": "Industry Type"
+                                            },
+                                            "display": true,
+                                            "value": "IT"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "department",
+                                                "name": "Department"
+                                            },
+                                            "display": true,
+                                            "value": "Product Management"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "employment-type",
+                                                "name": "Employment Type"
+                                            },
+                                            "display": true,
+                                            "value": "Full Time"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "job-role",
+                                                "name": "Job Role"
+                                            },
+                                            "display": true,
+                                            "value": "Product Manager"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "salary-info",
+                                        "name": "Salary Information"
+                                    },
+                                    "display": true,
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "gross-min",
+                                                "name": "Minimum Gross Pay"
+                                            },
+                                            "display": true,
+                                            "value": "1000000"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "gross-max",
+                                                "name": "Maximum Gross Pay"
+                                            },
+                                            "display": true,
+                                            "value": "1500000"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "locations": [
+                        {
+                            "city": {
+                                "code": "std:011",
+                                "name": "Delhi"
+                            },
+                            "id": "L1",
+                            "state": {
+                                "code": "DL",
+                                "name": "Delhi"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

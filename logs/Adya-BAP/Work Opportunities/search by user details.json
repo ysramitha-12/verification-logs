@@ -1,0 +1,43 @@
+{
+    "context": {
+        "action": "search",
+        "bap_id": "onest-jobs-bap.skillsetu.co",
+        "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
+        "domain": "onest:work-opportunities",
+        "message_id": "c2f126d5-e582-47f6-94e9-d62974d35e06",
+        "timestamp": "2024-08-29T09:16:20.456Z",
+        "transaction_id": "d3db67b6-b212-4e85-aa62-cae1ad9845de",
+        "ttl": "PT30S",
+        "version": "1.1.0"
+    },
+    "message": {
+        "intent": {
+            "fulfillment": {
+                "customer": {
+                    "person": {
+                        "age": "22",
+                        "gender": "female",
+                        "skills": [
+                            {
+                                "code": "Time management",
+                                "name": "Time management"
+                            },
+                            {
+                                "code": "Decision making",
+                                "name": "Decision making"
+                            },
+                            {
+                                "code": "Java",
+                                "name": "Java"
+                            },
+                            {
+                                "code": "Problem Solving",
+                                "name": "Problem Solving"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

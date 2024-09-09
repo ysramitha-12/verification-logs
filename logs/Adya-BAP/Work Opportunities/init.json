@@ -1,0 +1,117 @@
+{
+    "context": {
+        "action": "init",
+        "bap_id": "onest-jobs-bap.skillsetu.co",
+        "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
+        "bpp_id": "onest-jobs.skillsetu.co",
+        "bpp_uri": "https://onest-jobs.skillsetu.co/api/v1/onest_ondc/bpp",
+        "domain": "onest:work-opportunities",
+        "message_id": "ca533ed7-ea0b-4c42-b3f6-575a2b931d94",
+        "timestamp": "2024-08-29T15:19:32.847Z",
+        "transaction_id": "8d3cac68-0f5a-4d74-93b4-d716ddaa581d",
+        "ttl": "P1M",
+        "version": "1.1.0"
+    },
+    "message": {
+        "order": {
+            "fulfillments": [
+                {
+                    "customer": {
+                        "contact": {
+                            "email": "username@email.com",
+                            "phone": "7894522689"
+                        },
+                        "person": {
+                            "age": "23",
+                            "gender": "Male",
+                            "languages": [
+                                {
+                                    "code": "en",
+                                    "name": "English"
+                                },
+                                {
+                                    "code": "te",
+                                    "name": "Telugu"
+                                },
+                                {
+                                    "code": "hi",
+                                    "name": "Hindi"
+                                }
+                            ],
+                            "name": "John S",
+                            "skills": [
+                                {
+                                    "code": "Java",
+                                    "name": "Java"
+                                },
+                                {
+                                    "code": "Python",
+                                    "name": "Python"
+                                }
+                            ],
+                            "tags": [
+                                {
+                                    "descriptor": {
+                                        "code": "emp-details"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "expected-salary"
+                                            },
+                                            "value": "1000000"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "total-experience"
+                                            },
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "documents",
+                                        "name": "Documents"
+                                    },
+                                    "list": [
+                                        {
+                                            "descriptor": {
+                                                "code": "doc-type"
+                                            },
+                                            "value": "resume"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "link"
+                                            },
+                                            "value": "https://adyatechstorage.blob.core.windows.net/onest-storage/20908210315335.pdf-52d8f011-3b64-4e5c-ab13-a5a7f2cba5ad.pdf-54a079b8-a857-42cd-aca7-c380ee8a7ea6.pdf"
+                                        },
+                                        {
+                                            "descriptor": {
+                                                "code": "file-format"
+                                            },
+                                            "value": "pdf"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "id": "F1"
+                }
+            ],
+            "items": [
+                {
+                    "fulfillment_ids": [
+                        "F1"
+                    ],
+                    "id": "984R7I7S"
+                }
+            ],
+            "provider": {
+                "id": "B4KQ8OIJ"
+            }
+        }
+    }
+}

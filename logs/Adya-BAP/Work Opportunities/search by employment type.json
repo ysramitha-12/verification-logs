@@ -1,0 +1,38 @@
+{
+    "context": {
+        "action": "search",
+        "bap_id": "onest-jobs-bap.skillsetu.co",
+        "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
+        "domain": "onest:work-opportunities",
+        "message_id": "a301309c-9780-4adb-986b-4b9d2a7b1983",
+        "timestamp": "2024-08-29T09:16:20.456Z",
+        "transaction_id": "a5629f73-982f-468c-9e89-bd4c22787fb0",
+        "ttl": "PT30S",
+        "version": "1.1.0"
+    },
+    "message": {
+        "intent": {
+            "item": {
+                "tags": [
+                    {
+                        "descriptor": {
+                            "code": "listing-details",
+                            "name": "Listing details"
+                        },
+                        "display": true,
+                        "list": [
+                            {
+                                "descriptor": {
+                                    "code": "employment-type",
+                                    "name": "Employment type"
+                                },
+                                "display": true,
+                                "value": "full-time"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

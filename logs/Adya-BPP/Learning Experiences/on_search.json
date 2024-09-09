@@ -1,0 +1,155 @@
+{
+  "context": {
+    "action": "on_search",
+    "bap_id": "onest-bap.skillsetu.co",
+    "bap_uri": "https://onest-bap.skillsetu.co/api/v1/onest_ondc/bap",
+    "bpp_id": "onest.skillsetu.co",
+    "bpp_uri": "https://onest.skillsetu.co/api/v1/onest_ondc/bpp",
+    "domain": "onest:learning-experiences",
+    "message_id": "b40f07ca-2018-42ac-967d-d1680e6b3088",
+    "timestamp": "2024-08-29T07:17:34.370Z",
+    "transaction_id": "94098aa9-60c5-4ff5-83c0-2ed87e5fc4da",
+    "ttl": "PT10M",
+    "version": "1.1.0"
+  },
+  "message": {
+    "catalog": {
+      "descriptor": {
+        "name": "Catalog for management Courses"
+      },
+      "providers": [
+        {
+          "categories": [
+            {
+              "descriptor": {
+                "code": "SKILL-DEVELOPMENT-COURSES",
+                "name": "Skill Development Courses"
+              },
+              "id": "SKILL-DEVELOPMENT-COURSES"
+            }
+          ],
+          "descriptor": {
+            "images": [
+              {
+                "size_type": "sm",
+                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/2d8eb562c8c9fd83f859d1e0d7212cb3.png-16634e8e-ca95-4323-8654-ddc96a5d688e.png"
+              }
+            ],
+            "name": "Saira Shaik",
+            "short_desc": "Hello! I'm Saira, a passionate management instructor dedicated to empowering learners with practical skills and knowledge to excel in the world of business. With years of experience in the field, I bring a deep understanding of management principles, strategies, and real-world applications to my courses."
+          },
+          "fulfillments": [
+            {
+              "agent": {
+                "contact": {
+                  "email": "test_instructor@tmail.in"
+                },
+                "person": {
+                  "name": "Saira Shaik"
+                }
+              },
+              "id": "F2",
+              "type": "ONLINE"
+            }
+          ],
+          "id": "VOJIH8J8",
+          "items": [
+            {
+              "category_ids": [
+                "SKILL-DEVELOPMENT-COURSES"
+              ],
+              "creator": {
+                "descriptor": {
+                  "images": [
+                    {
+                      "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/images%20(11).jpeg-8e893cfb-abf8-4885-9d02-a616091454d4.jpeg"
+                    }
+                  ],
+                  "long_desc": "Saira a passionate management instructor dedicated to empowering learners with practical skills and knowledge to excel in the world of business",
+                  "name": "Saira",
+                  "short_desc": "Saira a passionate management instructor "
+                }
+              },
+              "descriptor": {
+                "images": [
+                  {
+                    "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/images%20(14).jpeg-ca95e475-a3f1-4fdb-8710-db2dff149654.jpeg"
+                  }
+                ],
+                "long_desc": " Understanding the role of a manager the functions of management and the importance of management in organizations",
+                "media": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=cYmqzdI1XOI"
+                  }
+                ],
+                "name": "Introduction to Management",
+                "short_desc": " Understanding the role of a manager"
+              },
+              "fulfillment_ids": [
+                "F2"
+              ],
+              "id": "YITY6D74",
+              "price": {
+                "currency": "INR",
+                "value": "500"
+              },
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "rateable": true,
+              "rating": "0",
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Content metadata"
+                  },
+                  "display": true,
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "learner-level",
+                        "name": "Learner level"
+                      },
+                      "value": "Beginner"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "learning-objective",
+                        "name": "Learning objective"
+                      },
+                      "value": "Understand the role and responsibilities of a manager in an organization"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "prerequisite",
+                        "name": "Prerequisite"
+                      },
+                      "value": " This course is designed for beginners with no prior experience or knowledge of management."
+                    },
+                    {
+                      "descriptor": {
+                        "code": "lang-code",
+                        "name": "Language code"
+                      },
+                      "value": "en"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-duration",
+                        "name": "Course duration"
+                      },
+                      "value": "PT6H"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
