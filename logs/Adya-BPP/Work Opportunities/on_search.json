@@ -1,3 +1,4 @@
+
 {
     "context": {
         "action": "on_search",
@@ -6,9 +7,9 @@
         "bpp_id": "onest-jobs.skillsetu.co",
         "bpp_uri": "https://onest-jobs.skillsetu.co/api/v1/onest_ondc/bpp",
         "domain": "onest:work-opportunities",
-        "message_id": "bbd7af01-ae94-4eb6-b64b-01b023294b5d",
-        "timestamp": "2024-08-29T08:23:19.969Z",
-        "transaction_id": "569544fa-1c3e-4f7d-927f-cfa5c1843856",
+        "message_id": "29ca6eea-3116-44dd-896a-0ade8d2dd7c1",
+        "timestamp": "2024-09-23T10:20:11.641Z",
+        "transaction_id": "24e2636a-eb92-4eb6-9429-02340fcd93aa",
         "ttl": "P1M",
         "version": "1.1.0"
     },
@@ -23,41 +24,44 @@
                         "images": [
                             {
                                 "size_type": "sm",
-                                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/unnamed.png-471d559f-0a88-44d9-bd5e-66bba2f7c840.png"
+                                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/cyber.jpeg-7bca8104-1cea-4e94-8b47-275ec4c4a7f5.jpeg"
                             }
                         ],
-                        "name": "Adya",
-                        "short_desc": "Adya providing jobs through skills setu"
+                        "name": "Cyber Expert PVT.LTD.",
+                        "short_desc": "Our mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and success"
                     },
                     "fulfillments": [
                         {
-                            "id": "F1",
-                            "type": "REMOTE"
+                            "id": "F3",
+                            "type": "ONSITE"
                         }
                     ],
-                    "id": "B4KQ8OIJ",
+                    "id": "8R86M7W8",
                     "items": [
                         {
                             "descriptor": {
-                                "long_desc": "We are seeking an experienced and dynamic Product Manager to join our team",
+                                "long_desc": "Leveraging your expertise in backend development, crypto, and blockchains, you will collaborate with our frontend and protocol teams to design scalable, secure, and efficient backend services.",
                                 "media": [
                                     {
                                         "mimetype": "video/mp4",
-                                        "url": "https://www.youtube.com/watch?v=yUOC-Y0f5ZQ"
+                                        "url": "https://www.youtube.com/watch?v=cbSrsYiRamo"
                                     }
-                             ],
-                                "name": "Product Manager"
+                                ],
+                                "name": "JavaScript Backend Developer"
                             },
                             "fulfillment_ids": [
-                                "F1"
+                                "F3"
                             ],
-                            "id": "984R7I7S",
+                            "id": "0H4JW9Z8",
                             "location_ids": [
-                                "L1"
+                                "L1",
+                                "L2",
+                                "L3",
+                                "L4"
                             ],
                             "quantity": {
                                 "available": {
-                                    "count": 10
+                                    "count": 15
                                 }
                             },
                             "tags": [
@@ -74,23 +78,7 @@
                                                 "name": "Course Name"
                                             },
                                             "display": true,
-                                            "value": "B tech"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "min-percentage",
-                                                "name": "Minimum Percentage"
-                                            },
-                                            "display": true,
-                                            "value": "60"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "mandatory-eligibility",
-                                                "name": "Mandatory Eligibility"
-                                            },
-                                            "display": true,
-                                            "value": "true"
+                                            "value": "Class X"
                                         },
                                         {
                                             "descriptor": {
@@ -102,19 +90,11 @@
                                         },
                                         {
                                             "descriptor": {
-                                                "code": "course-specialisation",
-                                                "name": "Course Specialisation"
+                                                "code": "min-gpa",
+                                                "name": "Minimum GPA"
                                             },
                                             "display": true,
-                                            "value": "Engineering in any stream"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "course-level",
-                                                "name": "Course Level"
-                                            },
-                                            "display": true,
-                                            "value": "bachelor"
+                                            "value": "7"
                                         }
                                     ]
                                 },
@@ -131,7 +111,7 @@
                                                 "name": "Required Work Experience in Years"
                                             },
                                             "display": true,
-                                            "value": "3"
+                                            "value": "2"
                                         },
                                         {
                                             "descriptor": {
@@ -139,15 +119,7 @@
                                                 "name": "Required Professional Skills"
                                             },
                                             "display": true,
-                                            "value": "Market Research and Analysis"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "req-prof-skills",
-                                                "name": "Required Professional Skills"
-                                            },
-                                            "display": true,
-                                            "value": "Communication and Collaboration"
+                                            "value": " Proficiency in one or more backend programming languages such as Node.js, Python,Java"
                                         }
                                     ]
                                 },
@@ -164,15 +136,7 @@
                                                 "name": "Responsibility"
                                             },
                                             "display": true,
-                                            "value": "Roadmap Planning"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "responsibility",
-                                                "name": "Responsibility"
-                                            },
-                                            "display": true,
-                                            "value": "Product Strategy and Vision"
+                                            "value": "Design, develop, and maintain scalable backend services and APIs"
                                         }
                                     ]
                                 },
@@ -197,7 +161,7 @@
                                                 "name": "Department"
                                             },
                                             "display": true,
-                                            "value": "Product Management"
+                                            "value": "Developer"
                                         },
                                         {
                                             "descriptor": {
@@ -213,7 +177,7 @@
                                                 "name": "Job Role"
                                             },
                                             "display": true,
-                                            "value": "Product Manager"
+                                            "value": "Backend Developer"
                                         }
                                     ]
                                 },
@@ -230,7 +194,7 @@
                                                 "name": "Minimum Gross Pay"
                                             },
                                             "display": true,
-                                            "value": "1000000"
+                                            "value": "500000"
                                         },
                                         {
                                             "descriptor": {
@@ -238,7 +202,7 @@
                                                 "name": "Maximum Gross Pay"
                                             },
                                             "display": true,
-                                            "value": "1500000"
+                                            "value": "1000000"
                                         }
                                     ]
                                 }
@@ -248,10 +212,43 @@
                     "locations": [
                         {
                             "city": {
+                                "code": "std:040",
+                                "name": "Hyderabad"
+                            },
+                            "id": "L1",
+                            "state": {
+                                "code": "TS",
+                                "name": "Telangana"
+                            }
+                        },
+                        {
+                            "city": {
+                                "code": "std:044",
+                                "name": "Chennai"
+                            },
+                            "id": "L2",
+                            "state": {
+                                "code": "TN",
+                                "name": "Tamil Nadu"
+                            }
+                        },
+                        {
+                            "city": {
+                                "code": "std:080",
+                                "name": "Bengaluru"
+                            },
+                            "id": "L3",
+                            "state": {
+                                "code": "KA",
+                                "name": "Karnataka"
+                            }
+                        },
+                        {
+                            "city": {
                                 "code": "std:011",
                                 "name": "Delhi"
                             },
-                            "id": "L1",
+                            "id": "L4",
                             "state": {
                                 "code": "DL",
                                 "name": "Delhi"

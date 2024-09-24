@@ -6,9 +6,9 @@
         "bpp_id": "onest.skillsetu.co",
         "bpp_uri": "https://onest.skillsetu.co/api/v1/onest_ondc/bpp",
         "domain": "onest:learning-experiences",
-        "message_id": "f647154c-cdea-48b2-830b-db80eb586105",
-        "timestamp": "2024-08-29T14:11:04.744Z",
-        "transaction_id": "8f736513-a2f2-463f-8056-26ca75e767f6",
+        "message_id": "301d12fd-91ee-41bd-a808-455d3f219d9f",
+        "timestamp": "2024-09-23T09:51:48.116Z",
+        "transaction_id": "66ffdad0-645a-4100-8d75-0db3c8b558ca",
         "ttl": "PT10M",
         "version": "1.1.0"
     },
@@ -38,20 +38,20 @@
             ],
             "items": [
                 {
-                    "id": "YITY6D74"
+                    "id": "5WB8GLLN"
                 }
             ],
             "payments": [
                 {
                     "params": {
-                        "amount": "500",
+                        "amount": "699",
                         "currency": "INR"
                     },
                     "status": "PAID"
                 }
             ],
             "provider": {
-                "id": "VOJIH8J8"
+                "id": "4ABZ5849"
             }
         }
     }
