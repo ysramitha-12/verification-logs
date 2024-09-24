@@ -4,9 +4,9 @@
         "bap_id": "onest-jobs-bap.skillsetu.co",
         "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
         "domain": "onest:work-opportunities",
-        "message_id": "bbd7af01-ae94-4eb6-b64b-01b023294b5d",
-        "timestamp": "2024-08-29T07:16:47.451Z",
-        "transaction_id": "569544fa-1c3e-4f7d-927f-cfa5c1843856",
+        "message_id": "29ca6eea-3116-44dd-896a-0ade8d2dd7c1",
+        "timestamp": "2024-09-23T10:18:53.550Z",
+        "transaction_id": "24e2636a-eb92-4eb6-9429-02340fcd93aa",
         "ttl": "PT30S",
         "version": "1.1.0"
     },
@@ -14,7 +14,7 @@
         "intent": {
             "item": {
                 "descriptor": {
-                    "name": "Product Manager"
+                    "name": "JavaScript Backend Developer"
                 }
             }
         }

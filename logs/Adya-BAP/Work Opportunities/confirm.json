@@ -6,9 +6,9 @@
         "bpp_id": "onest-jobs.skillsetu.co",
         "bpp_uri": "https://onest-jobs.skillsetu.co/api/v1/onest_ondc/bpp",
         "domain": "onest:work-opportunities",
-        "message_id": "a6413136-e3ea-4d74-9188-9627a2880a37",
-        "timestamp": "2024-08-29T15:19:32.847Z",
-        "transaction_id": "8d3cac68-0f5a-4d74-93b4-d716ddaa581d",
+        "message_id": "9e4a7a3c-6d0f-4f64-9fea-abe5a6055ea5",
+        "timestamp": "2024-09-23T11:58:48.681Z",
+        "transaction_id": "fdfe35d0-66e1-4d57-a88b-2dd36795e159",
         "ttl": "PT10M",
         "version": "1.1.0"
     },
@@ -60,7 +60,7 @@
                                                 "code": "expected-salary",
                                                 "name": "Expected Salary"
                                             },
-                                            "value": "1000000"
+                                            "value": "700000"
                                         },
                                         {
                                             "descriptor": {
@@ -100,19 +100,19 @@
                             ]
                         }
                     },
-                    "id": "F1"
+                    "id": "F3"
                 }
             ],
             "items": [
                 {
                     "fulfillment_ids": [
-                        "F1"
+                        "F3"
                     ],
-                    "id": "984R7I7S"
+                    "id": "0H4JW9Z8"
                 }
             ],
             "provider": {
-                "id": "B4KQ8OIJ"
+                "id": "8R86M7W8"
             }
         }
     }

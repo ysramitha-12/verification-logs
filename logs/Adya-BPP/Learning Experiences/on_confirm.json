@@ -6,9 +6,9 @@
         "bpp_id": "onest.skillsetu.co",
         "bpp_uri": "https://onest.skillsetu.co/api/v1/onest_ondc/bpp",
         "domain": "onest:learning-experiences",
-        "message_id": "f647154c-cdea-48b2-830b-db80eb586105",
-        "timestamp": "2024-08-29T14:30:31.334Z",
-        "transaction_id": "8f736513-a2f2-463f-8056-26ca75e767f6",
+        "message_id": "301d12fd-91ee-41bd-a808-455d3f219d9f",
+        "timestamp": "2024-09-23T09:51:48.642Z",
+        "transaction_id": "66ffdad0-645a-4100-8d75-0db3c8b558ca",
         "ttl": "PT10M",
         "version": "1.1.0"
     },
@@ -24,10 +24,10 @@
                 {
                     "agent": {
                         "contact": {
-                            "email": "test_instructor@tmail.in"
+                            "email": "rani@adya.ai"
                         },
                         "person": {
-                            "name": "Saira Shaik"
+                            "name": "rani kumar"
                         }
                     },
                     "customer": {
@@ -47,105 +47,118 @@
                             "code": "NOT-STARTED",
                             "name": "Not Started"
                         },
-                        "updated_at": "2024-08-29T14:30:31.416Z"
+                        "updated_at": "2024-09-23T09:51:48.642Z"
                     },
                     "stops": [
                         {
                             "id": "0",
                             "instructions": {
-                                "long_desc": "Explore what management is and why its essential in every organization This lesson covers the definition and scope of management as well as the primary roles and responsibilities of a manager",
+                                "long_desc": "Learn about typescript",
                                 "media": [
                                     {
                                         "mimetype": "video/mp4",
-                                        "url": "https://www.youtube.com/watch?v=EvE9s6JKemM&list=PLnTNoVqwCn3S_sETjs9QACQeRCDxBGmK8"
+                                        "url": "https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI"
                                     }
                                 ],
-                                "name": "Understanding Management Fundamentals"
+                                "name": "Introduction"
                             }
                         },
                         {
                             "id": "1",
                             "instructions": {
-                                "long_desc": " Dive into the four core functions of management Learn how each function contributes to achieving organizational goals and how managers balance these functions effectively",
+                                "long_desc": "Learn about Basic Types\n",
                                 "media": [
                                     {
                                         "mimetype": "video/mp4",
-                                        "url": "https://www.youtube.com/watch?v=LRR6nCpQdwc"
+                                        "url": "https://www.youtube.com/watch?v=0DzDqtcxnz0&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=3"
                                     }
                                 ],
-                                "name": "The Four Functions of Management"
+                                "name": "Basic Types"
                             }
                         },
                         {
                             "id": "2",
                             "instructions": {
-                                "long_desc": "Understand the development of management thought through various eras This lesson explores classical behavioral and modern management theories and how they shape current management practices",
+                                "long_desc": "The following tutorials refresh your control flow statement knowledge",
                                 "media": [
                                     {
                                         "mimetype": "video/mp4",
-                                        "url": "https://www.youtube.com/watch?v=8Y7252b_q1U"
+                                        "url": "https://www.youtube.com/watch?v=MrsuhFGGKvo"
                                     }
                                 ],
-                                "name": "Evolution of Management Theories"
+                                "name": "Control Flow Statements"
                             }
                         },
                         {
                             "id": "3",
                             "instructions": {
-                                "long_desc": "Learn the importance of decision making in management the steps involved in making informed decisions and various problem solving techniques to handle challenges effectively",
+                                "long_desc": "Learn how to declare a function that uses type annotation in TypeScript",
                                 "media": [
                                     {
                                         "mimetype": "video/mp4",
-                                        "url": "https://www.youtube.com/watch?v=svKD-fv-EKc"
+                                        "url": "https://www.youtube.com/watch?v=jXoSaX_yFh4&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=8"
                                     }
                                 ],
-                                "name": "Decision Making and Problem Solving"
+                                "name": "Functions"
+                            }
+                        },
+                        {
+                            "id": "4",
+                            "instructions": {
+                                "long_desc": "learn how to construct a class in TypeScript",
+                                "media": [
+                                    {
+                                        "mimetype": "video/mp4",
+                                        "url": "https://www.youtube.com/watch?v=TZNbzyY6hMU&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI&index=10"
+                                    }
+                                ],
+                                "name": "Classes"
                             }
                         }
                     ],
                     "type": "ONLINE"
                 }
             ],
-            "id": "be18d94a-0fc0-4059-9513-0434cb69b668",
+            "id": "5b6f44e1-7676-4e5a-801c-bb6af875d796",
             "items": [
                 {
                     "category_ids": [
-                        "SKILL-DEVELOPMENT-COURSES"
+                        "TECHNICAL-COURSES"
                     ],
                     "creator": {
                         "descriptor": {
                             "images": [
                                 {
-                                    "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/images%20(11).jpeg-8e893cfb-abf8-4885-9d02-a616091454d4.jpeg"
+                                    "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/swapna.jpeg-e149367b-5b1f-4e97-aeee-9bf3f9584839.jpeg"
                                 }
                             ],
-                            "long_desc": "Saira a passionate management instructor dedicated to empowering learners with practical skills and knowledge to excel in the world of business",
-                            "name": "Saira",
-                            "short_desc": "Saira a passionate management instructor "
+                            "long_desc": "Hi, I'm Swapna, a dedicated programme trainer passionate about empowering learners to achieve their goals through engaging and effective training sessions.",
+                            "name": "Swapna",
+                            "short_desc": "Hello, I'm Dr.Swapna, a professor in Andhra University"
                         }
                     },
                     "descriptor": {
                         "images": [
                             {
-                                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/images%20(14).jpeg-ca95e475-a3f1-4fdb-8710-db2dff149654.jpeg"
+                                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/ts.jpeg-724e8bc8-3929-436d-95aa-d63b32f45ebf.jpeg"
                             }
                         ],
-                        "long_desc": " Understanding the role of a manager the functions of management and the importance of management in organizations",
+                        "long_desc": "TypeScript adds types to JavaScript to help you speed up the development by catching errors before you even run the JavaScript code.",
                         "media": [
                             {
-                                "url": "https://www.youtube.com/watch?v=cYmqzdI1XOI"
+                                "url": "https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI"
                             }
                         ],
-                        "name": "Introduction to Management",
-                        "short_desc": " Understanding the role of a manager"
+                        "name": "TypeScript",
+                        "short_desc": "TypeScript is typed JavaScript."
                     },
                     "fulfillment_ids": [
                         "F2"
                     ],
-                    "id": "YITY6D74",
+                    "id": "5WB8GLLN",
                     "price": {
                         "currency": "INR",
-                        "value": "500"
+                        "value": "699"
                     },
                     "quantity": {
                         "maximum": {
@@ -174,14 +187,14 @@
                                         "code": "learning-objective",
                                         "name": "Learning objective"
                                     },
-                                    "value": "Understand the role and responsibilities of a manager in an organization"
+                                    "value": "TypeScript"
                                 },
                                 {
                                     "descriptor": {
                                         "code": "prerequisite",
                                         "name": "Prerequisite"
                                     },
-                                    "value": " This course is designed for beginners with no prior experience or knowledge of management."
+                                    "value": "Btech"
                                 },
                                 {
                                     "descriptor": {
@@ -195,7 +208,7 @@
                                         "code": "course-duration",
                                         "name": "Course duration"
                                     },
-                                    "value": "PT6H"
+                                    "value": "P7W"
                                 }
                             ]
                         }
@@ -204,9 +217,9 @@
             ],
             "payments": [
                 {
-                    "collected_by": "BPP",
+                    "collected_by": "bpp",
                     "params": {
-                        "amount": "500",
+                        "amount": "699",
                         "currency": "INR"
                     },
                     "status": "PAID",
@@ -217,28 +230,28 @@
                 "categories": [
                     {
                         "descriptor": {
-                            "code": "SKILL-DEVELOPMENT-COURSES",
-                            "name": "Skill Development Courses"
+                            "code": "TECHNICAL-COURSES",
+                            "name": "Technical Courses"
                         },
-                        "id": "SKILL-DEVELOPMENT-COURSES"
+                        "id": "TECHNICAL-COURSES"
                     }
                 ],
                 "descriptor": {
                     "images": [
                         {
                             "size_type": "sm",
-                            "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/2d8eb562c8c9fd83f859d1e0d7212cb3.png-16634e8e-ca95-4323-8654-ddc96a5d688e.png"
+                            "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/eyey.jpg-7f6e3a99-e840-4745-9ad9-1165aae929a3.jpeg"
                         }
                     ],
-                    "name": "Saira Shaik",
-                    "short_desc": "Hello! I'm Saira, a passionate management instructor dedicated to empowering learners with practical skills and knowledge to excel in the world of business. With years of experience in the field, I bring a deep understanding of management principles, strategies, and real-world applications to my courses."
+                    "name": "rani kumar",
+                    "short_desc": "This is about meThis is about meThis is about meThis is about "
                 },
-                "id": "VOJIH8J8"
+                "id": "4ABZ5849"
             },
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "500"
+                    "value": "699"
                 }
             }
         }

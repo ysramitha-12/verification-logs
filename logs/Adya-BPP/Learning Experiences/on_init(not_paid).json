@@ -6,9 +6,9 @@
         "bpp_id": "onest.skillsetu.co",
         "bpp_uri": "https://onest.skillsetu.co/api/v1/onest_ondc/bpp",
         "domain": "onest:learning-experiences",
-        "message_id": "b6bf15f4-c621-4593-9348-ab197a8093a5",
-        "timestamp": "2024-08-29T14:28:36.132Z",
-        "transaction_id": "8f736513-a2f2-463f-8056-26ca75e767f6",
+        "message_id": "a15a99cf-594b-425f-9108-8894dd46df57",
+        "timestamp": "2024-09-23T09:47:47.415Z",
+        "transaction_id": "66ffdad0-645a-4100-8d75-0db3c8b558ca",
         "ttl": "PT10M",
         "version": "1.1.0"
     },
@@ -24,10 +24,10 @@
                 {
                     "agent": {
                         "contact": {
-                            "email": "test_instructor@tmail.in"
+                            "email": "rani@adya.ai"
                         },
                         "person": {
-                            "name": "Saira Shaik"
+                            "name": "rani kumar"
                         }
                     },
                     "customer": {
@@ -66,42 +66,42 @@
             "items": [
                 {
                     "category_ids": [
-                        "SKILL-DEVELOPMENT-COURSES"
+                        "TECHNICAL-COURSES"
                     ],
                     "creator": {
                         "descriptor": {
                             "images": [
                                 {
-                                    "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/images%20(11).jpeg-8e893cfb-abf8-4885-9d02-a616091454d4.jpeg"
+                                    "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/swapna.jpeg-e149367b-5b1f-4e97-aeee-9bf3f9584839.jpeg"
                                 }
                             ],
-                            "long_desc": "Saira a passionate management instructor dedicated to empowering learners with practical skills and knowledge to excel in the world of business",
-                            "name": "Saira",
-                            "short_desc": "Saira a passionate management instructor "
+                            "long_desc": "Hi, I'm Swapna, a dedicated programme trainer passionate about empowering learners to achieve their goals through engaging and effective training sessions.",
+                            "name": "Swapna",
+                            "short_desc": "Hello, I'm Dr.Swapna, a professor in Andhra University"
                         }
                     },
                     "descriptor": {
                         "images": [
                             {
-                                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/images%20(14).jpeg-ca95e475-a3f1-4fdb-8710-db2dff149654.jpeg"
+                                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/ts.jpeg-724e8bc8-3929-436d-95aa-d63b32f45ebf.jpeg"
                             }
                         ],
-                        "long_desc": " Understanding the role of a manager the functions of management and the importance of management in organizations",
+                        "long_desc": "TypeScript adds types to JavaScript to help you speed up the development by catching errors before you even run the JavaScript code.",
                         "media": [
                             {
-                                "url": "https://www.youtube.com/watch?v=cYmqzdI1XOI"
+                                "url": "https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI"
                             }
                         ],
-                        "name": "Introduction to Management",
-                        "short_desc": " Understanding the role of a manager"
+                        "name": "TypeScript",
+                        "short_desc": "TypeScript is typed JavaScript."
                     },
                     "fulfillment_ids": [
                         "F2"
                     ],
-                    "id": "YITY6D74",
+                    "id": "5WB8GLLN",
                     "price": {
                         "currency": "INR",
-                        "value": "500"
+                        "value": "699"
                     },
                     "quantity": {
                         "maximum": {
@@ -130,14 +130,14 @@
                                         "code": "learning-objective",
                                         "name": "Learning objective"
                                     },
-                                    "value": "Understand the role and responsibilities of a manager in an organization"
+                                    "value": "TypeScript"
                                 },
                                 {
                                     "descriptor": {
                                         "code": "prerequisite",
                                         "name": "Prerequisite"
                                     },
-                                    "value": " This course is designed for beginners with no prior experience or knowledge of management."
+                                    "value": "Btech"
                                 },
                                 {
                                     "descriptor": {
@@ -151,7 +151,7 @@
                                         "code": "course-duration",
                                         "name": "Course duration"
                                     },
-                                    "value": "PT6H"
+                                    "value": "P7W"
                                 }
                             ]
                         }
@@ -160,7 +160,7 @@
                         "form": {
                             "mime_type": "text/html",
                             "resubmit": false,
-                            "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/education_form-8f736513-a2f2-463f-8056-26ca75e767f6.html"
+                            "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/education_form-66ffdad0-645a-4100-8d75-0db3c8b558ca.html"
                         },
                         "head": {
                             "descriptor": {
@@ -170,7 +170,7 @@
                                 "Educational Details"
                             ],
                             "index": {
-                                "cur": 0,
+                                "cur": 1,
                                 "max": 1,
                                 "min": 0
                             }
@@ -181,42 +181,42 @@
             ],
             "payments": [
                 {
-                    "collected_by": "BPP",
+                    "collected_by": "bpp",
                     "params": {
-                        "amount": "500",
+                        "amount": "699",
                         "currency": "INR"
                     },
                     "status": "NOT-PAID",
                     "type": "PRE-ORDER",
-                    "url": "https://onest.skillsetu.co/api/v1/onest/backend/courses/student_course_payment/get_payment/edaa1d29-19f3-466a-962f-d32e81fabcd2"
+                    "url": "https://onest.skillsetu.co/api/v1/onest/backend/courses/student_course_payment/get_payment/6e1b99e4-4a26-4706-80b9-f216afafab9b"
                 }
             ],
             "provider": {
                 "categories": [
                     {
                         "descriptor": {
-                            "code": "SKILL-DEVELOPMENT-COURSES",
-                            "name": "Skill Development Courses"
+                            "code": "TECHNICAL-COURSES",
+                            "name": "Technical Courses"
                         },
-                        "id": "SKILL-DEVELOPMENT-COURSES"
+                        "id": "TECHNICAL-COURSES"
                     }
                 ],
                 "descriptor": {
                     "images": [
                         {
                             "size_type": "sm",
-                            "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/2d8eb562c8c9fd83f859d1e0d7212cb3.png-16634e8e-ca95-4323-8654-ddc96a5d688e.png"
+                            "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/eyey.jpg-7f6e3a99-e840-4745-9ad9-1165aae929a3.jpeg"
                         }
                     ],
-                    "name": "Saira Shaik",
-                    "short_desc": "Hello! I'm Saira, a passionate management instructor dedicated to empowering learners with practical skills and knowledge to excel in the world of business. With years of experience in the field, I bring a deep understanding of management principles, strategies, and real-world applications to my courses."
+                    "name": "rani kumar",
+                    "short_desc": "This is about meThis is about meThis is about meThis is about "
                 },
-                "id": "VOJIH8J8"
+                "id": "4ABZ5849"
             },
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "500"
+                    "value": "699"
                 }
             }
         }

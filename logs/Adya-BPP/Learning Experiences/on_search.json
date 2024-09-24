@@ -6,92 +6,92 @@
     "bpp_id": "onest.skillsetu.co",
     "bpp_uri": "https://onest.skillsetu.co/api/v1/onest_ondc/bpp",
     "domain": "onest:learning-experiences",
-    "message_id": "b40f07ca-2018-42ac-967d-d1680e6b3088",
-    "timestamp": "2024-08-29T07:17:34.370Z",
-    "transaction_id": "94098aa9-60c5-4ff5-83c0-2ed87e5fc4da",
+    "message_id": "4cd430d8-09b0-4525-82c6-a3b656164d28",
+    "timestamp": "2024-09-23T09:45:22.691Z",
+    "transaction_id": "84254946-4b0e-490c-be1f-1343e9a1e4c0",
     "ttl": "PT10M",
     "version": "1.1.0"
   },
   "message": {
     "catalog": {
       "descriptor": {
-        "name": "Catalog for management Courses"
+        "name": "Catalog for typescript Courses"
       },
       "providers": [
         {
           "categories": [
             {
               "descriptor": {
-                "code": "SKILL-DEVELOPMENT-COURSES",
-                "name": "Skill Development Courses"
+                "code": "TECHNICAL-COURSES",
+                "name": "Technical Courses"
               },
-              "id": "SKILL-DEVELOPMENT-COURSES"
+              "id": "TECHNICAL-COURSES"
             }
           ],
           "descriptor": {
             "images": [
               {
                 "size_type": "sm",
-                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/2d8eb562c8c9fd83f859d1e0d7212cb3.png-16634e8e-ca95-4323-8654-ddc96a5d688e.png"
+                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/eyey.jpg-7f6e3a99-e840-4745-9ad9-1165aae929a3.jpeg"
               }
             ],
-            "name": "Saira Shaik",
-            "short_desc": "Hello! I'm Saira, a passionate management instructor dedicated to empowering learners with practical skills and knowledge to excel in the world of business. With years of experience in the field, I bring a deep understanding of management principles, strategies, and real-world applications to my courses."
+            "name": "rani kumar",
+            "short_desc": "This is about meThis is about meThis is about meThis is about "
           },
           "fulfillments": [
             {
               "agent": {
                 "contact": {
-                  "email": "test_instructor@tmail.in"
+                  "email": "rani@adya.ai"
                 },
                 "person": {
-                  "name": "Saira Shaik"
+                  "name": "rani kumar"
                 }
               },
               "id": "F2",
               "type": "ONLINE"
             }
           ],
-          "id": "VOJIH8J8",
+          "id": "4ABZ5849",
           "items": [
             {
               "category_ids": [
-                "SKILL-DEVELOPMENT-COURSES"
+                "TECHNICAL-COURSES"
               ],
               "creator": {
                 "descriptor": {
                   "images": [
                     {
-                      "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/images%20(11).jpeg-8e893cfb-abf8-4885-9d02-a616091454d4.jpeg"
+                      "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/swapna.jpeg-e149367b-5b1f-4e97-aeee-9bf3f9584839.jpeg"
                     }
                   ],
-                  "long_desc": "Saira a passionate management instructor dedicated to empowering learners with practical skills and knowledge to excel in the world of business",
-                  "name": "Saira",
-                  "short_desc": "Saira a passionate management instructor "
+                  "long_desc": "Hi, I'm Swapna, a dedicated programme trainer passionate about empowering learners to achieve their goals through engaging and effective training sessions.",
+                  "name": "Swapna",
+                  "short_desc": "Hello, I'm Dr.Swapna, a professor in Andhra University"
                 }
               },
               "descriptor": {
                 "images": [
                   {
-                    "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/images%20(14).jpeg-ca95e475-a3f1-4fdb-8710-db2dff149654.jpeg"
+                    "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/ts.jpeg-724e8bc8-3929-436d-95aa-d63b32f45ebf.jpeg"
                   }
                 ],
-                "long_desc": " Understanding the role of a manager the functions of management and the importance of management in organizations",
+                "long_desc": "TypeScript adds types to JavaScript to help you speed up the development by catching errors before you even run the JavaScript code.",
                 "media": [
                   {
-                    "url": "https://www.youtube.com/watch?v=cYmqzdI1XOI"
+                    "url": "https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI"
                   }
                 ],
-                "name": "Introduction to Management",
-                "short_desc": " Understanding the role of a manager"
+                "name": "TypeScript",
+                "short_desc": "TypeScript is typed JavaScript."
               },
               "fulfillment_ids": [
                 "F2"
               ],
-              "id": "YITY6D74",
+              "id": "5WB8GLLN",
               "price": {
                 "currency": "INR",
-                "value": "500"
+                "value": "699"
               },
               "quantity": {
                 "maximum": {
@@ -120,14 +120,14 @@
                         "code": "learning-objective",
                         "name": "Learning objective"
                       },
-                      "value": "Understand the role and responsibilities of a manager in an organization"
+                      "value": "TypeScript"
                     },
                     {
                       "descriptor": {
                         "code": "prerequisite",
                         "name": "Prerequisite"
                       },
-                      "value": " This course is designed for beginners with no prior experience or knowledge of management."
+                      "value": "Btech"
                     },
                     {
                       "descriptor": {
@@ -141,7 +141,138 @@
                         "code": "course-duration",
                         "name": "Course duration"
                       },
-                      "value": "PT6H"
+                      "value": "P7W"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "categories": [
+            {
+              "descriptor": {
+                "code": "TECHNICAL-COURSES",
+                "name": "Technical Courses"
+              },
+              "id": "TECHNICAL-COURSES"
+            }
+          ],
+          "descriptor": {
+            "images": [
+              {
+                "size_type": "sm",
+                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/men1.jpeg-e0298330-f0c5-4a05-a4d0-37c80bb8034f.jpeg"
+              }
+            ],
+            "name": "sanjay s",
+            "short_desc": "i am a educator with 10 years of experience"
+          },
+          "fulfillments": [
+            {
+              "agent": {
+                "contact": {
+                  "email": "sanjay.santosh@adya.ai"
+                },
+                "person": {
+                  "name": "sanjay s"
+                }
+              },
+              "id": "F2",
+              "type": "ONLINE"
+            }
+          ],
+          "id": "PCQR6T05",
+          "items": [
+            {
+              "category_ids": [
+                "TECHNICAL-COURSES"
+              ],
+              "creator": {
+                "descriptor": {
+                  "images": [
+                    {
+                      "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/360_F_113995750_dAEGvjqxnsYD6asKjeDWJoVoSqjFvdGO.jpg-003e1312-2097-4370-a787-64db3466060f.jpeg"
+                    }
+                  ],
+                  "long_desc": "4 years of experience",
+                  "name": "krish",
+                  "short_desc": "4 years of experience"
+                }
+              },
+              "descriptor": {
+                "images": [
+                  {
+                    "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/Typescript_logo_2020.svg.png-a67e21be-4af9-407c-a041-20f2f6aa62ea.png"
+                  }
+                ],
+                "long_desc": "typescript for intermediate",
+                "media": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=ahCwqrYpIuM"
+                  }
+                ],
+                "name": "typescript for intermediate",
+                "short_desc": "typescript for intermediate"
+              },
+              "fulfillment_ids": [
+                "F2"
+              ],
+              "id": "GMEL55LP",
+              "price": {
+                "currency": "INR",
+                "value": "499"
+              },
+              "quantity": {
+                "maximum": {
+                  "count": 1
+                }
+              },
+              "rateable": true,
+              "rating": "0",
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "content-metadata",
+                    "name": "Content metadata"
+                  },
+                  "display": true,
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "learner-level",
+                        "name": "Learner level"
+                      },
+                      "value": "Intermediate"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "learning-objective",
+                        "name": "Learning objective"
+                      },
+                      "value": "typescript for intermediate"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "prerequisite",
+                        "name": "Prerequisite"
+                      },
+                      "value": "basic understading of javascript"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "lang-code",
+                        "name": "Language code"
+                      },
+                      "value": "en"
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-duration",
+                        "name": "Course duration"
+                      },
+                      "value": "P2W"
                     }
                   ]
                 }
