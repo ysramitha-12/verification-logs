@@ -4,9 +4,9 @@
         "bap_id": "onest-jobs-bap.skillsetu.co",
         "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
         "domain": "onest:work-opportunities",
-        "message_id": "71777570-8c29-4ddd-a5ba-e8310e90c2ba",
-        "timestamp": "2024-09-23T10:22:23.466Z",
-        "transaction_id": "88cb9d98-18a2-4a78-b38c-50f96fc27443",
+        "message_id": "e89f4b14-aad9-4152-87de-5e815f5ff779",
+        "timestamp": "2024-09-26T10:37:28.886Z",
+        "transaction_id": "352b0413-bc5a-4415-8458-37d26f286190",
         "ttl": "PT30S",
         "version": "1.1.0"
     },
@@ -24,7 +24,7 @@
                             "name": "India"
                         },
                         "state": {
-                            "code": "IN-DL",
+                            "code": "DL",
                             "name": "Delhi"
                         }
                     }

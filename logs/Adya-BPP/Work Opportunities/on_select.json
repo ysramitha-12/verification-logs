@@ -6,9 +6,9 @@
         "bpp_id": "onest-jobs.skillsetu.co",
         "bpp_uri": "https://onest-jobs.skillsetu.co/api/v1/onest_ondc/bpp",
         "domain": "onest:work-opportunities",
-        "message_id": "5bf3a4c0-7f76-4b9c-b34f-1802845e1805",
-        "timestamp": "2024-09-23T11:56:31.707Z",
-        "transaction_id": "fdfe35d0-66e1-4d57-a88b-2dd36795e159",
+        "message_id": "9da3adc6-6968-4127-935f-688a16a327a6",
+        "timestamp": "2024-09-26T10:45:47.988Z",
+        "transaction_id": "45a3b510-3246-47b4-8f7b-bc5bfcacb0dd",
         "ttl": "PT10M",
         "version": "1.1.0"
     },
@@ -17,18 +17,16 @@
             "items": [
                 {
                     "descriptor": {
-                        "long_desc": "Leveraging your expertise in backend development, crypto, and blockchains, you will collaborate with our frontend and protocol teams to design scalable, secure, and efficient backend services.",
-                        "name": "JavaScript Backend Developer"
+                        "long_desc": "Create custom general use modules and components extending the elements and modules of core Angular, Writes non-blocking code using advanced techniques such as multi-threading, javascript dependency management.",
+                        "name": "Fullstack Developer"
                     },
                     "fulfillment_ids": [
-                        "F3"
+                        "F1"
                     ],
-                    "id": "0H4JW9Z8",
+                    "id": "75NU6M3Y",
                     "location_ids": [
                         "L1",
-                        "L2",
-                        "L3",
-                        "L4"
+                        "L2"
                     ],
                     "tags": [
                         {
@@ -60,7 +58,7 @@
                                         "name": "Minimum GPA"
                                     },
                                     "display": true,
-                                    "value": "7"
+                                    "value": "8"
                                 }
                             ]
                         },
@@ -85,7 +83,7 @@
                                         "name": "Required Professional Skills"
                                     },
                                     "display": true,
-                                    "value": " Proficiency in one or more backend programming languages such as Node.js, Python,Java"
+                                    "value": "Extensive technical experience with Full-Stack React, REST APIs, Python, SQL, ORM"
                                 }
                             ]
                         },
@@ -102,7 +100,7 @@
                                         "name": "Responsibility"
                                     },
                                     "display": true,
-                                    "value": "Design, develop, and maintain scalable backend services and APIs"
+                                    "value": "Proven experience as a Full Stack Web Application Development"
                                 }
                             ]
                         },
@@ -143,7 +141,7 @@
                                         "name": "Job Role"
                                     },
                                     "display": true,
-                                    "value": "Backend Developer"
+                                    "value": "Developer"
                                 }
                             ]
                         },
@@ -176,7 +174,7 @@
                     "time": {
                         "range": {
                             "end": "2024-09-30T06:30:00+00:00",
-                            "start": "2024-09-22T18:30:00+00:00"
+                            "start": "2024-09-25T18:30:00+00:00"
                         }
                     }
                 }
@@ -187,29 +185,18 @@
                 },
                 "fulfillments": [
                     {
-                        "id": "F3",
-                        "type": "ONSITE"
+                        "id": "F1",
+                        "type": "REMOTE"
                     }
                 ],
                 "id": "8R86M7W8",
                 "locations": [
                     {
                         "city": {
-                            "code": "std:040",
-                            "name": "Hyderabad"
-                        },
-                        "id": "L1",
-                        "state": {
-                            "code": "TS",
-                            "name": "Telangana"
-                        }
-                    },
-                    {
-                        "city": {
                             "code": "std:044",
                             "name": "Chennai"
                         },
-                        "id": "L2",
+                        "id": "L1",
                         "state": {
                             "code": "TN",
                             "name": "Tamil Nadu"
@@ -217,21 +204,10 @@
                     },
                     {
                         "city": {
-                            "code": "std:080",
-                            "name": "Bengaluru"
-                        },
-                        "id": "L3",
-                        "state": {
-                            "code": "KA",
-                            "name": "Karnataka"
-                        }
-                    },
-                    {
-                        "city": {
                             "code": "std:011",
                             "name": "Delhi"
                         },
-                        "id": "L4",
+                        "id": "L2",
                         "state": {
                             "code": "DL",
                             "name": "Delhi"

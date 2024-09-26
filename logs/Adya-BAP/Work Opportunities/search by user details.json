@@ -4,9 +4,9 @@
         "bap_id": "onest-jobs-bap.skillsetu.co",
         "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
         "domain": "onest:work-opportunities",
-        "message_id": "75928cde-6029-429e-9309-7f299a67de38",
-        "timestamp": "2024-09-23T10:25:54.654Z",
-        "transaction_id": "bb841e80-b9e2-4974-8f8e-06e9618890e2",
+        "message_id": "f9b2f682-dde8-4cbf-8966-ac6f28da968f",
+        "timestamp": "2024-09-26T10:38:53.469Z",
+        "transaction_id": "be679b6b-161c-4827-ad7d-e8167997acaf",
         "ttl": "PT30S",
         "version": "1.1.0"
     },
@@ -19,8 +19,8 @@
                         "gender": "female",
                         "skills": [
                             {
-                                "code": "Java",
-                                "name": "Java"
+                                "code": "Python",
+                                "name": "Python"
                             }
                         ]
                     }

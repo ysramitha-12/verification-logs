@@ -1,262 +1,207 @@
-
 {
-    "context": {
-        "action": "on_search",
-        "bap_id": "onest-jobs-bap.skillsetu.co",
-        "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
-        "bpp_id": "onest-jobs.skillsetu.co",
-        "bpp_uri": "https://onest-jobs.skillsetu.co/api/v1/onest_ondc/bpp",
-        "domain": "onest:work-opportunities",
-        "message_id": "29ca6eea-3116-44dd-896a-0ade8d2dd7c1",
-        "timestamp": "2024-09-23T10:20:11.641Z",
-        "transaction_id": "24e2636a-eb92-4eb6-9429-02340fcd93aa",
-        "ttl": "P1M",
-        "version": "1.1.0"
-    },
-    "message": {
-        "catalog": {
-            "descriptor": {
-                "name": "Jobs Search List"
-            },
-            "providers": [
-                {
-                    "descriptor": {
-                        "images": [
-                            {
-                                "size_type": "sm",
-                                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/cyber.jpeg-7bca8104-1cea-4e94-8b47-275ec4c4a7f5.jpeg"
-                            }
-                        ],
-                        "name": "Cyber Expert PVT.LTD.",
-                        "short_desc": "Our mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and success"
-                    },
-                    "fulfillments": [
-                        {
-                            "id": "F3",
-                            "type": "ONSITE"
-                        }
-                    ],
-                    "id": "8R86M7W8",
-                    "items": [
-                        {
-                            "descriptor": {
-                                "long_desc": "Leveraging your expertise in backend development, crypto, and blockchains, you will collaborate with our frontend and protocol teams to design scalable, secure, and efficient backend services.",
-                                "media": [
-                                    {
-                                        "mimetype": "video/mp4",
-                                        "url": "https://www.youtube.com/watch?v=cbSrsYiRamo"
-                                    }
-                                ],
-                                "name": "JavaScript Backend Developer"
-                            },
-                            "fulfillment_ids": [
-                                "F3"
-                            ],
-                            "id": "0H4JW9Z8",
-                            "location_ids": [
-                                "L1",
-                                "L2",
-                                "L3",
-                                "L4"
-                            ],
-                            "quantity": {
-                                "available": {
-                                    "count": 15
-                                }
-                            },
-                            "tags": [
-                                {
-                                    "descriptor": {
-                                        "code": "academic-eligibility",
-                                        "name": "Academic Eligibility"
-                                    },
-                                    "display": true,
-                                    "list": [
-                                        {
-                                            "descriptor": {
-                                                "code": "course-name",
-                                                "name": "Course Name"
-                                            },
-                                            "display": true,
-                                            "value": "Class X"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "course-status",
-                                                "name": "Course Status"
-                                            },
-                                            "display": true,
-                                            "value": "completed"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "min-gpa",
-                                                "name": "Minimum GPA"
-                                            },
-                                            "display": true,
-                                            "value": "7"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "job-requirements",
-                                        "name": "Job Requirements"
-                                    },
-                                    "display": true,
-                                    "list": [
-                                        {
-                                            "descriptor": {
-                                                "code": "req-experience",
-                                                "name": "Required Work Experience in Years"
-                                            },
-                                            "display": true,
-                                            "value": "2"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "req-prof-skills",
-                                                "name": "Required Professional Skills"
-                                            },
-                                            "display": true,
-                                            "value": " Proficiency in one or more backend programming languages such as Node.js, Python,Java"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "job-responsibilities",
-                                        "name": "Job Responsibilities"
-                                    },
-                                    "display": true,
-                                    "list": [
-                                        {
-                                            "descriptor": {
-                                                "code": "responsibility",
-                                                "name": "Responsibility"
-                                            },
-                                            "display": true,
-                                            "value": "Design, develop, and maintain scalable backend services and APIs"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "listing-details",
-                                        "name": "Listing Details"
-                                    },
-                                    "display": true,
-                                    "list": [
-                                        {
-                                            "descriptor": {
-                                                "code": "industry-type",
-                                                "name": "Industry Type"
-                                            },
-                                            "display": true,
-                                            "value": "IT"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "department",
-                                                "name": "Department"
-                                            },
-                                            "display": true,
-                                            "value": "Developer"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "employment-type",
-                                                "name": "Employment Type"
-                                            },
-                                            "display": true,
-                                            "value": "Full Time"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "job-role",
-                                                "name": "Job Role"
-                                            },
-                                            "display": true,
-                                            "value": "Backend Developer"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "descriptor": {
-                                        "code": "salary-info",
-                                        "name": "Salary Information"
-                                    },
-                                    "display": true,
-                                    "list": [
-                                        {
-                                            "descriptor": {
-                                                "code": "gross-min",
-                                                "name": "Minimum Gross Pay"
-                                            },
-                                            "display": true,
-                                            "value": "500000"
-                                        },
-                                        {
-                                            "descriptor": {
-                                                "code": "gross-max",
-                                                "name": "Maximum Gross Pay"
-                                            },
-                                            "display": true,
-                                            "value": "1000000"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "locations": [
-                        {
-                            "city": {
-                                "code": "std:040",
-                                "name": "Hyderabad"
-                            },
-                            "id": "L1",
-                            "state": {
-                                "code": "TS",
-                                "name": "Telangana"
-                            }
-                        },
-                        {
-                            "city": {
-                                "code": "std:044",
-                                "name": "Chennai"
-                            },
-                            "id": "L2",
-                            "state": {
-                                "code": "TN",
-                                "name": "Tamil Nadu"
-                            }
-                        },
-                        {
-                            "city": {
-                                "code": "std:080",
-                                "name": "Bengaluru"
-                            },
-                            "id": "L3",
-                            "state": {
-                                "code": "KA",
-                                "name": "Karnataka"
-                            }
-                        },
-                        {
-                            "city": {
-                                "code": "std:011",
-                                "name": "Delhi"
-                            },
-                            "id": "L4",
-                            "state": {
-                                "code": "DL",
-                                "name": "Delhi"
-                            }
-                        }
-                    ]
-                }
+  "context": {
+    "domain": "onest:work-opportunities",
+    "action": "on_search",
+    "version": "1.1.0",
+    "bap_id": "onest-jobs-bap.skillsetu.co",
+    "bap_uri": "https://onest-jobs-bap.skillsetu.co/api/v1/onest_ondc/bap",
+    "transaction_id": "5e27b723-7010-4f94-ab3a-ae64b63510f4",
+    "ttl": "P1M",
+    "message_id": "cc8b4f4c-716c-440a-bb69-2a02cacd2d87",
+    "timestamp": "2024-09-26T10:30:31.264Z",
+    "bpp_uri": "https://onest-jobs.skillsetu.co/api/v1/onest_ondc/bpp",
+    "bpp_id": "onest-jobs.skillsetu.co"
+  },
+  "message": {
+    "catalog": {
+      "descriptor": { "name": "Jobs Search List" },
+      "providers": [
+        {
+          "id": "8R86M7W8",
+          "descriptor": {
+            "name": "Cyber Expert PVT.LTD.",
+            "short_desc": "Our mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and successOur mission is to empower our clients by delivering high-quality services that drive efficiency, growth, and success",
+            "images": [
+              {
+                "url": "https://adyatechstorage.blob.core.windows.net/onest-storage/cyber.jpeg-7bca8104-1cea-4e94-8b47-275ec4c4a7f5.jpeg",
+                "size_type": "sm"
+              }
             ]
+          },
+          "fulfillments": [{ "id": "F1", "type": "REMOTE" }],
+          "locations": [
+            {
+              "id": "L1",
+              "city": { "name": "Chennai", "code": "std:044" },
+              "state": { "name": "Tamil Nadu", "code": "TN" }
+            },
+            {
+              "id": "L2",
+              "city": { "name": "Delhi", "code": "std:011" },
+              "state": { "name": "Delhi", "code": "DL" }
+            }
+          ],
+          "items": [
+            {
+              "id": "75NU6M3Y",
+              "descriptor": {
+                "name": "Fullstack Developer",
+                "long_desc": "Create custom general use modules and components extending the elements and modules of core Angular, Writes non-blocking code using advanced techniques such as multi-threading, javascript dependency management.",
+                "media": [
+                  {
+                    "url": "https://www.youtube.com/watch?v=OeEHJgzqS1k",
+                    "mimetype": "video/mp4"
+                  }
+                ]
+              },
+              "quantity": { "available": { "count": 10 } },
+              "location_ids": ["L1", "L2"],
+              "fulfillment_ids": ["F1"],
+              "tags": [
+                {
+                  "display": true,
+                  "descriptor": {
+                    "code": "academic-eligibility",
+                    "name": "Academic Eligibility"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "course-name",
+                        "name": "Course Name"
+                      },
+                      "value": "Class X",
+                      "display": true
+                    },
+                    {
+                      "descriptor": {
+                        "code": "course-status",
+                        "name": "Course Status"
+                      },
+                      "value": "completed",
+                      "display": true
+                    },
+                    {
+                      "descriptor": {
+                        "code": "min-gpa",
+                        "name": "Minimum GPA"
+                      },
+                      "value": "8",
+                      "display": true
+                    }
+                  ]
+                },
+                {
+                  "display": true,
+                  "descriptor": {
+                    "code": "job-requirements",
+                    "name": "Job Requirements"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "req-experience",
+                        "name": "Required Work Experience in Years"
+                      },
+                      "value": "2",
+                      "display": true
+                    },
+                    {
+                      "descriptor": {
+                        "code": "req-prof-skills",
+                        "name": "Required Professional Skills"
+                      },
+                      "value": "Extensive technical experience with Full-Stack React, REST APIs, Python, SQL, ORM",
+                      "display": true
+                    }
+                  ]
+                },
+                {
+                  "display": true,
+                  "descriptor": {
+                    "code": "job-responsibilities",
+                    "name": "Job Responsibilities"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "responsibility",
+                        "name": "Responsibility"
+                      },
+                      "value": "Proven experience as a Full Stack Web Application Development",
+                      "display": true
+                    }
+                  ]
+                },
+                {
+                  "display": true,
+                  "descriptor": {
+                    "code": "listing-details",
+                    "name": "Listing Details"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "industry-type",
+                        "name": "Industry Type"
+                      },
+                      "value": "IT",
+                      "display": true
+                    },
+                    {
+                      "descriptor": {
+                        "code": "department",
+                        "name": "Department"
+                      },
+                      "value": "Developer",
+                      "display": true
+                    },
+                    {
+                      "descriptor": {
+                        "code": "employment-type",
+                        "name": "Employment Type"
+                      },
+                      "value": "Full Time",
+                      "display": true
+                    },
+                    {
+                      "descriptor": { "code": "job-role", "name": "Job Role" },
+                      "value": "Developer",
+                      "display": true
+                    }
+                  ]
+                },
+                {
+                  "display": true,
+                  "descriptor": {
+                    "code": "salary-info",
+                    "name": "Salary Information"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "code": "gross-min",
+                        "name": "Minimum Gross Pay"
+                      },
+                      "value": "500000",
+                      "display": true
+                    },
+                    {
+                      "descriptor": {
+                        "code": "gross-max",
+                        "name": "Maximum Gross Pay"
+                      },
+                      "value": "1000000",
+                      "display": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
+      ]
     }
+  },
+  "telemetry_start_time": "568385536364012"
 }
